@@ -27,7 +27,7 @@ Data without context is inherently worthless. Only through **contextualization**
 
 <h3> Context turns data into insights </h3>
 
-Simply providing a data value pair like [48.6560, 9.2205] leaves its meaning unclear. Only by adding context—such as specifying that the pair represents geographic coordinates in decimal degrees—does it become an informative statement, like 📍 Latitude: 48.6560° N, 📍 Longitude: 9.2205° E: The geocoordinates of my hometown. 
+Simply providing a data value pair like [48.6560, 9.2204] leaves its meaning unclear. Only by adding context—such as specifying that the pair represents geographic coordinates in decimal degrees—does it become an informative statement, like 📍 Latitude: 48.6560° N, 📍 Longitude: 9.2205° E: The geocoordinates of my hometown. 
 
 <h3> SPDM Tech focuses on Simulation Automation and Data </h3>
 
