@@ -1,5 +1,28 @@
 <div class="call">
   <div class="call-box-top">
+    {% if site.data.contact.name %}
+    <div class="call-name"><strong>Name: </strong> {{ site.data.contact.name }} </div>
+    {% endif %}
+    
+    {% if include.impressum %}
+    {% if site.data.contact.street %}
+    <div class="call-street">
+        {{ site.data.contact.street }}
+      </a>
+    </div>
+    {% endif %}
+    {% if site.data.contact.address %}
+    <div class="call-address">
+        {{ site.data.contact.address }}
+      </a>
+    </div>
+    {% endif %}{% if site.data.contact.country %}
+    <div class="call-country">
+        {{ site.data.contact.country }}
+      </a>
+    </div>
+    {% endif %}
+    {% endif %}
     {% if site.data.contact.phone %}
         <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
     {% endif %}
@@ -10,6 +33,7 @@
       </a>
     </div>
     {% endif %}
+    
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">

@@ -2,11 +2,13 @@
 title: Services
 layout: services
 description: Services
-intro_image: "images/illustrations/reading.svg"
+intro_image: "images/illustrations/working.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Services that grow with your business
+# Services that grow your business
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+## <span style="background-color: lightgrey">This is just a test page</span>
+
+The service section is under development. 

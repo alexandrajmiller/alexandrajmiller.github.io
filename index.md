@@ -1,13 +1,15 @@
 ---
-title: Jekyll Serif Theme
+title: SPDM Tech
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/pointing.svg"
+description: Simulation Process and Data Management (SPDM) Technology Web Page by Daniel Kraetschmer 
+#intro_image: "images/illustrations/pointing.svg"
+intro_image: "images/illustrations/working.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# SPDM Tech - Simulation Solutions at a glance
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+
+Simulation Process and Data Management Solutions to grow your Business with combined Simulation Process Digitalization, Simulation Workflows and Simulation Data Management.   

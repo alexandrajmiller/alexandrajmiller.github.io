@@ -2,12 +2,12 @@
 ---
 
 // Colors
-$primary: #e5261f;
-$primary-dark: #a01b16;
-$secondary: #f88379;
+$primary: #00008b;//#e5261f;
+$primary-dark: #0b0b64;//#134994;
+$secondary: #0e0e7d;//#f88379;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #f6faff;
 $steel: #5c5a5a;
 
 // Links
@@ -21,11 +21,13 @@ $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
 $font-family-heading: "Playfair Display", serif, -apple-system;
 
 // Footer
-$footer-background-color: $primary;
-$footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
-$sub-footer-text-color: $white;
-
+//$footer-background-color: $primary;
+$footer-background-color: $white-offset;
+$footer-text-color: $primary;
+//$sub-footer-background-color: darken($primary, 10%);
+//$sub-footer-text-color: $white;
+$sub-footer-background-color: $white-offset;
+$sub-footer-text-color: $primary;
 // Bootstrap 5.3.2
 
 // 1. Include Bootstrap functions first

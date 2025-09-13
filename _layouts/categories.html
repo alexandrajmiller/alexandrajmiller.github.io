@@ -1,0 +1,27 @@
+---
+layout: default
+body_classes: page-categories
+---
+
+
+<div class="container pt-6 pb-6">
+  {% assign category = page.title %}
+  <h1 class="title">{{page.title}}</h1>
+  <div class="row">
+    {% for post in site.categories[category] %}
+    <div class="col-12 col-md-6 mb-3">
+      <div class="post post-summary">
+        <div class="post-content">
+          <h2 class="post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          {%- assign date_format = post.date_format | default: "%B %d, %Y" -%}
+          <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+          <p>{{ post.excerpt | markdownify | strip_html | truncate: 200 }}</p>
+
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

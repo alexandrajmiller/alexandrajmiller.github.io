@@ -1,3 +1,7 @@
-email: 'jekyllserif@example.com'
-phone: '1800 123 000'
-contact_button_link: 'contact'
+name: 'Dr.-Ing. Daniel M. Krätschmer'
+email: 'Daniel.Kraetschmer@spdm-tech.de'
+phone: '+49 1704012957'
+street: 'Felsenstraße 54/1'
+address: '70794 Filderstadt'
+country: 'Germany'
+contact_button_link: "/contact/"

@@ -1,6 +1,7 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'SPDM Technologies'
+footer-title: 'Dr.-Ing. Daniel M. Kraetschmer'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -8,13 +9,16 @@ logo:
   mobile_width: "32px"
   desktop: "images/logo/logo.svg"
   desktop_height: "32px"
-  desktop_width: "120px"
+  desktop_width: "200px"
 
 home: 
   limit_services: 6
 
 collections:
   services:
+    output: true
+    sort_by: weight
+  posts:
     output: true
     sort_by: weight
   team:
@@ -31,9 +35,20 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: categories
+      permalink: /category/:basename/
 
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compact # possible values: nested expanded compact compressed
 
 plugins:
   - jekyll-environment-variables

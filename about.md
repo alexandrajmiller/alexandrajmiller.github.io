@@ -1,87 +1,109 @@
 ---
-title: About
+title: Business Success with Data
 layout: page
 description: About
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+> <h2> "Data is the new oil" (Clive Humby) </h2>
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+Just like in fossil times, oil found in geological formations must be recovered through drilling, fracking, or alternative methods. For most use cases, the extracted oil needs to be processed and refined into various products, such as gasoline or heating oil, before it can be efficiently used.
 
-# Objectives
+<h3>Data is the new oil—comparable, yet fundamentally different. </h3>
 
-Financial accounting and financial reporting are often used as synonyms.
+Unlike oil, we generate vast amounts of new data every day. As of now, an estimated 149 zettabytes exist—though exact sources vary.
+<!--- To put this number into perspective: One zettabyte equals one sextillion bytes (1,000,000,000,000,000,000,000 bytes) or the storage capacity of 250 billion DVDs.
+-->
+In other words, over 90% of the world’s data has been generated in just the past two years. The data volume doubles approximately every four years. 
+<!---It does not grow as fast as Moore’s Law, which states that the number of transistors in integrated circuits doubles every 24 months but this exponential growth is comparable to a high-risk investment in tech ETFs or certain cryptocurrencies. ---> This contrasts with oil, where production rates remain relatively constant, while reserves tend to increase each year.
+<!--In 1940, global oil reserves were estimated at 6 billion tons, providing a supply for just 21 years. By 2007, reserves had risen to 180 billion tons, extending the projected supply to 46 years. Even today, the estimated oil reserves are expected to last around 40 years. <a href="https://www.bveg.de/die-branche/erdgas-und-erdoel-in-deutschland/erdoelreserven-in-deutschland/">[Source]</a> 
+![Data is the new oil](/images/zbynek-burival-GrmwVnVSSdU-unsplash.jpg)
+<small>
+Foto von <a href="https://unsplash.com/de/@zburival?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zbynek Burival</a> auf <a href="https://unsplash.com/de/fotos/sonnenuntergang-GrmwVnVSSdU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </small>
+-->
+> <h2>"Data is valuable but if unrefined it cannot be really used" (Michael Palmer)</h2>
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+Data without context is inherently worthless. Only through **contextualization**—by defining what a dataset represents—does raw data transform into **meaningful information** you can use to support your business. 
 
-## Relevance
+<h3> Context turns data into insights </h3>
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+Simply providing a data value pair like [48.6560, 9.2204] leaves its meaning unclear. Only by adding context—such as specifying that the pair represents geographic coordinates in decimal degrees—does it become an informative statement, like 📍 Latitude: 48.6560° N, 📍 Longitude: 9.2205° E: The geocoordinates of my hometown. 
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+<h3> SPDM Tech focuses on Simulation Automation and Data </h3>
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
+For the purpose of **numerical simulations**, it is essential to convert vast quantities of raw data into **meaningful and actionable insights** - preferably well described, tool-supported and automated to satisfy credibility requirements - enabling deeper analysis and informed decision-making. 
 
-## Faithful Representation
+> <h2> "Most Simulation runs hold no value" (Daniel Krätschmer) </h2>
 
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
+As Simulation is still an expert domain in Engineering and just **badly democratized** it suffers comparable limitation as digitalization does. The pure distance in competence and understanding between the decisive Engineering Business represented by Line Managers, Program and Project Managers and the Simulation Expert (or in analogy: IT and Software Development Experts) is often high and there is a noticeable risk that simulation activites are mainly **driven and initiated by Experts not understood by the Business**.
+That might be one of the reasons why a lot of existing virtualization and simulation potential remains unleashed: It is just not connected to the Business where decisions are regularly met. 
 
-## Enhancing Qualitative Characteristics
+<h3> SPDM Tech helps to contextualize simulation artefacts to foster profound decision-making  </h3>
 
-### Verifiability
+<!---
+Simulation Input Data is processed by solving the governing equations, resulting in the following data:
+- Field Data (Primary Variables): Fundamental results directly computed by the solver, such as displacement, strain, stress, and temperature values.
+- Derived Data (Post-Processing Results): Computed from field data to support analysis, including principal and equivalent stresses, fatigue life, damage estimation, and other failure criteria.
+-->
 
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
+Since simulation runs constitute only a fraction of the **complete engineering process** in e.g. automotive engineering, establishing a **seamless connection between product master data and simulation objects is** essential to ensure consistency, accuracy, and integration across the entire value chain: It is a necessary prerequisite to realize various use cases ranging from required CO2E calculations to virtual referencing and release of reliability-driven product testing. Collecting information about the device to be tested sounds simple - but in heterogeneous engineering reality it is often difficult to connect Devices under Test (DuT)-instances with transparent product master data.    
 
-### Comparability
+**SPDM Tech** specializes in establishing **data architectures and ontologies** for comprehensive engineering processes, with a focus on simulation data as our core element. By semantically describing both attributes and interrelations of data objects, we create **knowledge graphs** that enhance data integration and accessibility without the need to incorporate entire model information.
 
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
+Knowledge graphs play a pivotal role in enhancing **tracability**, **lineage and relationships of data points** by semantically linking data from various sources. Additionally they foster AI-driven Engineering Applications providing the contextual backbone necessary for advanced data integration and analysis.
 
-### Understandability
+<h3> Insights require reliable data sources </h3>
 
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
+Despite its importance, documentation is often the first casualty in **real-world engineering** — just like metadata, which is frequently missing or incorrect. These errors are directly transferred into knowledge graphs, where they are amplified through data connections, ultimately leading to incorrect results in downstream applications. Simply put: the quality of your connected data sources is **mission-critical for success** in any data-driven business. So take care! 
 
----
 
-## Statement of cash flows
 
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
+<!---
+A simulation run in structural mechanics requires several key inputs:
 
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
+- Geometry Information: The structure's shape is discretized into a finite element mesh, consisting of nodes and elements.
+- Material Properties: Defined based on the physical domain and type of simulation, including parameters like elasticity, plasticity, and thermal properties.
+- Boundary Conditions: Constraints such as fixed supports, symmetry conditions, or prescribed displacements.
+- Load Data: Applied forces, pressures, thermal loads, or other external influences affecting the structure.
 
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
+![Data is the new oil](/images/2025-02-26_Simulation_Contour_plot.png)
+<small> Source: Daniel Krätschmer, [http://dx.doi.org/10.18419/opus-1923](http://dx.doi.org/10.18419/opus-1923)</small>
 
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
+This information is processed by solving the governing equations, resulting in the following data:
+- Field Data (Primary Variables): Fundamental results directly computed by the solver, such as displacement, strain, stress, and temperature values.
+- Derived Data (Post-Processing Results): Computed from field data to support analysis, including principal and equivalent stresses, fatigue life, damage estimation, and other failure criteria.
+ 
 
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
+![Data is the new oil](/images/2025-02-25_Simulation_Temperatue_overlay.png)
 
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
 
-## Statement of financial position (balance sheet)
+<small>
+Image Source: <a href="https://library.dynardo.de/fileadmin/Material_Dynardo/bibliothek/WOST19/02_WOST22_optiSLang_Data_Centricity_BOSCH_Kraetschmer.pdf">Daniel Krätschmer: "optiSLang as part of a data-centric ecosystem", Robert Bosch GmbH, WOST Workshop 2022</a> 
 
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
+Simulation Data Management (SDM) tends to desribe various simulation artefacts:
+- Simulation Models
+- Simulation Analysis
+- Simulation Results 
 
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
 
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+
+
+
+Daten ohne Kontext sind zuallererst wertlos. Erst durch eine Kontextualisierung, eine Beschreibung, was durch den Datensatz beschrieben wird, wird aus einem Datum eine Information.    
+
+
+
+
+Im Gegensatz zu Öl produzieren wir täglich Unmengen an neuen Daten - mittlerweile exisitieren bei nicht eindeutiger Quellenlage ca. 149 Zettabyte. um die Zahl einzuordnen: Ein Zettabyte entspricht 1 Sextillion Bytes (1.000.000.000.000.000.000.000 Bytes) oder der Speicherkapazität von 250 Milliarden DVDs. 
+Anders ausgedrückt. Über 90% der weltweiten Daten wurden in den letzten zwei Jahren generiert. Die Verdopplungsgeschwindigkeit beträgt 4 Jahre (im Gegensatz zu Moore's Law, das besagt, dass sich die Anzahl der Transistoren integrierter Schaltkreise alle 24 Monate verdoppelt). Das entspricht einem riskanten Investment in Tech-ETFs oder bei bestimmten Krytowährungen. 
+
+-->
+
+
+
+
+
+
+
+
+

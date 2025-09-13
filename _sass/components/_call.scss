@@ -31,10 +31,20 @@
     }
   }
   .call-name {
-    font-size: 1.1rem;
-    font-weight: bold;
+    //font-size: 1.1rem;
+    //font-weight: bold;
+    margin-bottom: 5px;
   }
   .call-phone {
+    margin-bottom: 5px;
+  }
+  .call-street {
+    margin-bottom: 0px;
+  }
+  .call-address {
+    margin-bottom: 0px;
+  }
+  .call-country {
     margin-bottom: 5px;
   }
   .call-email {
