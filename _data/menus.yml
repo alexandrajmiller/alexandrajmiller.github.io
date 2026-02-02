@@ -1,13 +1,13 @@
 main:
 
   - name: "Client Experiences"
-    url: "/client-experiences/"
-    weight: 4
+    url: "/client-experience/"
+    weight: 2
   - name: "About"
     url: "/about/"
-    weight: 3
+    weight: 1
   - name: "Contact"
     url: "/contact/"
-    weight: 5
+    weight: 3
 
 footer:
