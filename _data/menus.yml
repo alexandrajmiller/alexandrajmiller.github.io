@@ -1,7 +1,5 @@
 main:
-  - name: "Home"
-    url: "/services/"
-    weight: 2
+
   - name: "Client Experiences"
     url: "/client-experiences/"
     weight: 4
