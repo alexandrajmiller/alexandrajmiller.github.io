@@ -8,4 +8,4 @@ weight: 4
 layout: team
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.
+I found that the grounding concept works extremely well on me and aligned with my instincts so smoothly. The method not only works on grounding myself, but also works on grounding my mission and goal. The discovery shows that such grounding technique effectively makes me feel present (and faster), compared to meditation.
