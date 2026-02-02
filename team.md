@@ -1,7 +1,7 @@
 ---
-title: Team
+title: Client Experiences
 layout: teams
-permalink: /team/
+permalink: /client-experiences/
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
