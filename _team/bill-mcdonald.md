@@ -10,6 +10,4 @@ weight: 7
 layout: team
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Alex, I cannot thank you enough for the wonderful energy sessions. I’m especially grateful for the session we did focusing on my grandma. We weren’t sure if she was going to make it. But within a couple of weeks after our session she slowly regained her strength and now she’s out of the hospital back at home with my family. I truly believe these sessions have played a major role in helping her regain her strength. And I’ve also learned so much about tapping in and tuning into my own energy & intuition. Words can’t express how this has touched and changed my life. Thank you!
