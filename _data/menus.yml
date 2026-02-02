@@ -1,6 +1,6 @@
 main:
 
-  - name: "Client Experiences"
+  - name: "Client Experience"
     url: "/client-experience/"
     weight: 2
   - name: "About"
