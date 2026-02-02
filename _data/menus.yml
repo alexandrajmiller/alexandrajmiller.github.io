@@ -4,10 +4,10 @@ main:
     weight: 2
   - name: "Client Experiences"
     url: "/client-experiences/"
-    weight: 3
+    weight: 4
   - name: "About"
     url: "/about/"
-    weight: 4
+    weight: 3
   - name: "Contact"
     url: "/contact/"
     weight: 5
