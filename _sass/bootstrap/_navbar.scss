@@ -63,6 +63,11 @@
   }
 }
 
+.navbar-brand img {
+    height: 50px !important; /* Adjust height as needed */
+    width: auto !important; /* Maintains aspect ratio */
+}
+
 
 // Navbar nav
 //
