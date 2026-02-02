@@ -8,8 +8,7 @@ intro_image_hide_on_mobile: false
 A mechanical engineer from Johns Hopkins turned energy coach in Hawaii, Alexandra helps people unite their logical minds with their intuitive hearts to design the life they desire. She teaches people to work intentionally with their own energy, using thoughts, emotions, and the physical body—the most powerful tools for transformation.
 
 # Personal Energy Coaching
-
-This is a one-to-one coaching container designed to help high-performing professionals understand their energy and work with it intentionally to reduce burnout and move through life with greater ease and joy.
+A mechanical engineer from Johns Hopkins turned energy coach in Hawaii, Alexandra helps people unite their logical minds with their intuitive hearts to design the life they desire. She teaches people to work intentionally with their own energy, using thoughts, emotions, and the physical body—the most powerful tools for transformation.
 
 <h2>Structure</h2>
 <ul>
