@@ -7,13 +7,13 @@
 var CONTENT = {
 
   // ── NAV ─────────────────────────────────────────────────
-  nav_name: "ALEX MILLER, PhD",
+  nav_name: "ALEXANDRA MILLER, PhD",
 
 
   // ── HERO ────────────────────────────────────────────────
-  hero_eyebrow:   "Energy Healing · 1:1 Coaching · Qi Gong · Remote Worldwide",
+  hero_eyebrow:   "Energy Healing · 1:1 Coaching · Qi Gong",
   hero_title:     "I bridge the analytical mind and the body's intelligence.",
-  hero_subtitle:  "So driven, logical people can move through life with less friction and more flow.",
+  hero_subtitle:  "to help driven, logical people can move through life with less friction and more flow.",
   hero_btn1:      "See Sessions",
   hero_btn2:      "Book a Discovery Call",
 
@@ -28,7 +28,7 @@ var CONTENT = {
   card2_title: "1:1 Coaching",
   card2_desc:  "Build what comes next. For people who want clearer thinking, better decisions, and less resistance in daily life.",
 
-  card3_tag:   "Practice",
+  card3_tag:   "Embodied Practice",
   card3_title: "Qi Gong Instruction",
   card3_desc:  "Learn to regulate your own energy. A daily practice for committed clients — self-directed, somatic, long-term.",
 
@@ -73,7 +73,7 @@ var CONTENT = {
   faqs: [
     {
       q: "Who is Alexandra J. Miller, PhD and what is Kinetic Zenergy?",
-      a: "Alexandra J. Miller, PhD is a personal energy coach and healer. Kinetic Zenergy is her signature method — designed for high-performing professionals, creatives, and leaders who feel the toll of chronic overload. Remote sessions available worldwide."
+      a: "Alexandra is a personal energy coach and healer. Kinetic Zenergy is her signature method — designed for high-performing professionals, creatives, and leaders who feel the toll of chronic overload. Remote sessions available worldwide."
     },
     {
       q: "What is the difference between coaching and healing sessions?",
@@ -93,17 +93,17 @@ var CONTENT = {
     },
     {
       q: "How does pet energy healing work?",
-      a: "Pet energy healing applies the same energetic principles used in human sessions to support the wellbeing of pets. Sessions can be conducted remotely. Alex has worked with cats, dogs, and other pets experiencing illness, anxiety, or behavioural changes."
+      a: "Pet energy healing applies the same energetic principles used in human sessions to support the wellbeing of pets. Sessions can be conducted remotely. Alex has worked with cats, dogs, and horses experiencing illness, anxiety, or behavioural changes."
     }
   ],
 
 
   // ── BOOKING ─────────────────────────────────────────────
   booking_title:    "Choose your path to transformation",
-  booking_subtitle: "Every session is one-of-a-kind — intuitively guided, energetically precise, and tailored to exactly where you are right now.",
+  booking_subtitle: "Every session is intuitively guided, energetically precise, and tailored to you.",
 
   discovery_call_text:   "Not sure where to start?",
-  discovery_call_sub:    "Book a free 30-min call with Alex — no commitment, no sales pitch.",
+  discovery_call_sub:    "Book a free 30-min call with Alex.",
   discovery_call_btn:    "Book Free Call →",
 
   // Sessions for You
@@ -117,7 +117,7 @@ var CONTENT = {
       plan:     "Your fee is credited toward any package",
       for:      "A first experience, one clear issue, or a meaningful gift.",
       includes: [
-        "Identify exactly what is blocking your energy — and how to move it",
+        "Identify exactly what is blocking your energy — and how to eliminate it",
         "A personal practice built for your body, not a generic protocol",
         "Session notes within 48 hrs",
         "7-day follow-up window"
@@ -136,7 +136,7 @@ var CONTENT = {
       for:      "Clearing a defined block, resetting a pattern, or preparing for a transition.",
       includes: [
         "Three sessions that build on each other",
-        "Session notes after every session",
+        //"Session notes after every session",
         "WhatsApp check-ins between sessions"
       ],
       btn:         "Begin the Journey →",
@@ -161,7 +161,7 @@ var CONTENT = {
       btn:         "Commit to the Journey →",
       stripe_link: "https://buy.stripe.com/14AcMY6CBahpftH8XQ1ck03",
       featured:    true,
-      badge:       "Most Clients Choose This"
+      //badge:       "Most Clients Choose This"
     }
   ],
 
@@ -176,7 +176,7 @@ var CONTENT = {
       plan:     "Your fee is credited toward any package",
       for:      "A first experience, one acute issue, or to see how your pet responds.",
       includes: [
-        "Direct energetic reading — no verbal feedback needed",
+        "Direct energetic assessment",
         "Identify and clear what is affecting your pet",
         "Session notes + home guidance within 48 hrs",
         "Effective for anxiety, illness, and recovery"
@@ -219,7 +219,7 @@ var CONTENT = {
       btn:         "Start the 6-Session Container →",
       stripe_link: "https://buy.stripe.com/7sY4gs4ut89hepDde61ck06",
       featured:    true,
-      badge:       "Best for Ongoing Conditions"
+      // badge:       "Best for Ongoing Conditions"
     }
   ],
 
@@ -234,7 +234,7 @@ var CONTENT = {
       plan:     "Your fee is credited toward the 4-Week Course",
       for:      "Anyone curious about Qi Gong, or wanting to experience Alexandra's teaching before joining a course.",
       includes: [
-        "Guided 45-min Qi Gong practice led by Alexandra",
+        "Guided 50-min Qi Gong practice led by Alexandra",
         "Q&A and group introductions after the session",
         "No prior experience needed"
       ],
@@ -244,7 +244,7 @@ var CONTENT = {
     },
     {
       type:     "4-Week Program",
-      title:    "Four Weeks. A Daily Practice.",
+      title:    "Four Weeks.",
       price:    "97",
       was:      "",
       note:     "4 Monday sessions · 60 min · Small group · Zoom",
@@ -260,14 +260,14 @@ var CONTENT = {
       btn:         "Join the Waitlist →",
       stripe_link: "mailto:kinetic7energy@gmail.com?subject=Qi%20Gong%204-Week%20Waitlist",
       featured:    true,
-      badge:       "Coming Soon"
+      //badge:       "Coming Soon"
     }
   ],
 
 
   // ── CTA SECTION ─────────────────────────────────────────
   cta_title:    "The engineer's path to ease.",
-  cta_subtitle: "Sessions available worldwide. Reach out to start.",
+  cta_subtitle: "Remote sessions available.",
   cta_btn:      "Book a Discovery Call",
 
 
