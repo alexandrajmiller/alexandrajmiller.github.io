@@ -9,11 +9,11 @@ var CONTENT = {
 
 
   // ── HERO ────────────────────────────────────────────────
-  //hero_eyebrow:   "Energy Healing · 1:1 Coaching · Qi Gong",
+  hero_eyebrow: "",  
   hero_title:     "Energy, engineered.",
-  //hero_subtitle:  " I bridge the analytical mind and the body's intelligence to help driven, logical people can move through life with less friction and more flow.",
-  hero_btn1:      "See Sessions",
-  hero_btn2:      "Book a Discovery Call",
+  hero_subtitle:  " I bridge the analytical mind and the body's intelligence to help driven, logical people can move through life with less friction and more flow.",
+  hero_btn1:      "",
+  hero_btn2:      "",
 
 
   // ── SERVICES (bento cards) ───────────────────────────────
@@ -40,8 +40,8 @@ var CONTENT = {
   about_name:  "Alexandra J. Miller, PhD",
   about_p1:    "I'm an engineer who does energy work. My background is in mechanical engineering — I spent years developing assistive technology. At some point I realized the most sophisticated system I could work on was the human body.",
   about_p2:    "I bridge the analytical mind and the body's intelligence. I work with driven, logical people — and I speak their language.",
-  //about_p3:    "Sessions are available worldwide via Zoom. No belief required — just willingness to test something new.",
-  //about_tags:  ["Energy Healing", "1:1 Coaching", "Qi Gong"],
+  about_p3:    "",
+  
 
 
   // ── TESTIMONIALS ────────────────────────────────────────
@@ -217,7 +217,7 @@ var CONTENT = {
       btn:         "Start the 6-Session Container →",
       stripe_link: "https://buy.stripe.com/7sY4gs4ut89hepDde61ck06",
       featured:    true,
-      // badge:       "Best for Ongoing Conditions"
+      
     }
   ],
 
@@ -232,7 +232,7 @@ var CONTENT = {
       plan:     "Your fee is credited toward the 4-Week Course",
       for:      "Anyone curious about Qi Gong, or wanting to experience Alexandra's teaching before joining a course.",
       includes: [
-        "Guided 50-min Qi Gong practice led by Alexandra",
+        "Guided 50-min Qi Gong practice led by Alex",
         "Q&A and group introductions after the session",
         "No prior experience needed"
       ],
@@ -258,7 +258,7 @@ var CONTENT = {
       btn:         "Join the Waitlist →",
       stripe_link: "mailto:kinetic7energy@gmail.com?subject=Qi%20Gong%204-Week%20Waitlist",
       featured:    true,
-      //badge:       "Coming Soon"
+     
     }
   ],
 
