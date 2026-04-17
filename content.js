@@ -9,9 +9,9 @@ var CONTENT = {
 
 
   // ── HERO ────────────────────────────────────────────────
-  hero_eyebrow:   "Energy Healing · 1:1 Coaching · Qi Gong",
-  hero_title:     "I bridge the analytical mind and the body's intelligence.",
-  hero_subtitle:  "to help driven, logical people can move through life with less friction and more flow.",
+  //hero_eyebrow:   "Energy Healing · 1:1 Coaching · Qi Gong",
+  hero_title:     "Energy, engineered.",
+  //hero_subtitle:  " I bridge the analytical mind and the body's intelligence to help driven, logical people can move through life with less friction and more flow.",
   hero_btn1:      "See Sessions",
   hero_btn2:      "Book a Discovery Call",
 
