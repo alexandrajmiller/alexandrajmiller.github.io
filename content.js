@@ -1,7 +1,5 @@
 // ============================================================
 //  KINETIC ZENERGY — SITE CONTENT
-//  Edit anything in here. Save the file. Push to GitHub.
-//  You will NEVER need to touch index.html.
 // ============================================================
 
 var CONTENT = {
@@ -42,8 +40,8 @@ var CONTENT = {
   about_name:  "Alexandra J. Miller, PhD",
   about_p1:    "I'm an engineer who does energy work. My background is in mechanical engineering — I spent years developing assistive technology. At some point I realized the most sophisticated system I could work on was the human body.",
   about_p2:    "I bridge the analytical mind and the body's intelligence. I work with driven, logical people — and I speak their language.",
-  about_p3:    "Sessions are available worldwide via Zoom. No belief required — just willingness to test something new.",
-  about_tags:  ["Energy Healing", "1:1 Coaching", "Qi Gong", "Remote Worldwide"],
+  //about_p3:    "Sessions are available worldwide via Zoom. No belief required — just willingness to test something new.",
+  //about_tags:  ["Energy Healing", "1:1 Coaching", "Qi Gong"],
 
 
   // ── TESTIMONIALS ────────────────────────────────────────
