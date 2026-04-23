@@ -50,17 +50,17 @@ var CONTENT = {
   //  card1–4 desc   = the description on each card
   //  (card3 is commented out in the HTML until Qi Gong is ready)
   // ============================================================
-  services_title: "Four ways in.",
+  services_title: "Methods",
 
   card1_title: "Energy Sessions",
-  card1_desc:  "Shift what's stuck in the body. For people who feel off and conventional approaches aren't getting to the root.",
+  card1_desc:  "Shift what's stuck in the bodys and conventional approaches aren't getting to the root.",
 
   card2_title: "1:1 Coaching",
   card2_desc:  "Build what comes next. For people who want clearer thinking, better decisions, and less resistance in daily life.",
-
+/*
   card3_title: "Qi Gong Instruction",
   card3_desc:  "Learn to regulate your own energy. A daily practice for committed clients — self-directed, somatic, long-term.",
-
+*/
   card4_title: "Energy Sessions for Your Pet",
   card4_desc:  "Pets absorb and reflect the energy of their environment. When they're off, it's often a signal. This addresses it directly.",
 
@@ -78,7 +78,7 @@ var CONTENT = {
   //  To add/edit a quote: change the text inside the quotes
   //  To add a new person: copy one block and paste it with a comma
   // ============================================================
-  voices_title: "What People Say",
+  /* voices_title: "What People Say", */
 
   testimonials: [
     {
@@ -108,7 +108,7 @@ var CONTENT = {
   //  To edit a question/answer: change the text inside the quotes
   //  To add a new one: copy a block and paste it with a comma
   // ============================================================
-  faq_title: "Common Questions",
+  faq_title: "The Method - Kinetic Zenergy",
 
   faqs: [
     {
@@ -154,11 +154,11 @@ var CONTENT = {
   //  stripe_link = the payment URL — REPLACE WITH SQUARE LINK WHEN READY
   //  featured    = true makes it highlighted, false is normal
   // ============================================================
-  booking_title: "Choose your path",
+  booking_title: "Sessions",
 
   discovery_call_text: "Not sure where to start?",
-  discovery_call_sub:  "Book a free 30-min call with Alex.",
-  discovery_call_btn:  "Book Free Call →",
+  /* discovery_call_sub:  "Book a free 30-min call with Alex.", */
+  discovery_call_btn:  "Book Free Discovery Call →",
 
   human_sessions: [
     {
@@ -175,7 +175,7 @@ var CONTENT = {
         "Session notes within 48 hrs",
         "7-day follow-up window"
       ],
-      btn:         "Reserve Your Session →",
+      btn:         "Reserve Your Session",
       stripe_link: "https://buy.stripe.com/bJe3co5yx3T1dlz6PI1ck01",
       featured:    false,
       badge:       ""
@@ -192,7 +192,7 @@ var CONTENT = {
         "Three sessions that build on each other",
         "WhatsApp check-ins between sessions"
       ],
-      btn:         "Begin the Journey →",
+      btn:         "Begin the Journey",
       stripe_link: "https://buy.stripe.com/14AfZae53dtBa9n5LE1ck02",
       featured:    false,
       badge:       ""
@@ -212,7 +212,7 @@ var CONTENT = {
         "WhatsApp support between sessions",
         "Full recordings + integration notes after every session"
       ],
-      btn:         "Commit to the Journey →",
+      btn:         "Commit to the Journey",
       stripe_link: "https://buy.stripe.com/14AcMY6CBahpftH8XQ1ck03",
       featured:    true,
       badge:       ""
