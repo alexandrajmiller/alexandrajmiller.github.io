@@ -13,7 +13,6 @@ var CONTENT = {
   // ── SERVICES SECTION HEADER ──────────────────────────────
   // Change these two lines to rename the whole section
   services_label: "Methods",
-  services_title: "Four ways in.",
 
   // ── VIDEO SECTION ────────────────────────────────────────
   video_title: "What People Experience",
@@ -25,20 +24,17 @@ var CONTENT = {
   // ── VOICES SECTION HEADER ────────────────────────────────
   // Change these two lines to rename the whole section
   voices_label: "From people I've worked with",
-  voices_title: "What's shifting.",
+  voices_title: "What People Experience.",
 
 
   // ── HERO ────────────────────────────────────────────────
-  hero_eyebrow:   "",
   hero_title:     "Energy, engineered.",
   hero_subtitle:  "I bridge the analytical mind and the body's intelligence to help driven, logical people move through life with less friction and more flow.",
-  hero_btn1:      "See Sessions",
-  hero_btn2:      "Book a Discovery Call",
-
+  
 
   // ── SERVICES (bento cards) ───────────────────────────────
   card1_tag:   "Core",
-  card1_title: "Energy Healing",
+  card1_title: "Energy Sessions",
   card1_desc:  "Shift what's stuck in the body. For people who feel off and conventional approaches aren't getting to the root.",
 
   card2_tag:   "Core",
@@ -50,15 +46,15 @@ var CONTENT = {
   card3_desc:  "Learn to regulate your own energy. A daily practice for committed clients — self-directed, somatic, long-term.",
 
   card4_tag:   "Extended",
-  card4_title: "Pet Healing",
+  card4_title: "Energy Sessions for Your Pet",
   card4_desc:  "Pets absorb and reflect the energy of their environment. When they're off, it's often a signal. This addresses it directly.",
 
 
   // ── ABOUT ───────────────────────────────────────────────
   about_label: "Meet Alex",
-  about_name:  "Alexandra J. Miller, PhD",
+  about_name:  "Harmonizing Logic and Intuition",
   about_p1:    "I'm an engineer who does energy work. My background is in mechanical engineering — I spent years developing assistive technology. At some point I realized the most sophisticated system I could work on was the human body.",
-  about_p2:    "I bridge the analytical mind and the body's intelligence. I work with driven, logical people — and I speak their language.",
+  about_p2:    "I bridge the analytical mind and the body's intelligence to help driven, logical people move through life with less friction and more flow.",
   about_p3:    "",
   about_tags:  [],
 
@@ -76,12 +72,6 @@ var CONTENT = {
       name:  "Michael",
       role:  "Performance · Clarity",
       initial: "M"
-    },
-    {
-      quote: "I was skeptical at first, but the results were undeniable. My thinking became clearer, my energy stabilized, and I started making decisions that actually felt right — not just logical.",
-      name:  "R.K.",
-      role:  "Engineering researcher",
-      initial: "R"
     }
   ],
 
@@ -117,7 +107,6 @@ var CONTENT = {
 
   // ── BOOKING ─────────────────────────────────────────────
   booking_title:    "Choose your path to transformation",
-  booking_subtitle: "Every session is intuitively guided, energetically precise, and tailored to you.",
 
   discovery_call_text:   "Not sure where to start?",
   discovery_call_sub:    "Book a free 30-min call with Alex.",
@@ -188,13 +177,13 @@ var CONTENT = {
       title:    "One Session. For Your Pet.",
       price:    "79",
       was:      "",
-      note:     "60 minutes · Remote · All species",
+      note:     "60 minutes · Remote",
       plan:     "Your fee is credited toward any package",
       for:      "A first experience, one acute issue, or to see how your pet responds.",
       includes: [
         "Direct energetic assessment",
         "Identify and clear what is affecting your pet",
-        "Session notes + home guidance within 48 hrs",
+        "Session notes + home guidance",
         "Effective for anxiety, illness, and recovery"
       ],
       btn:         "Reserve a Session →",
@@ -285,12 +274,11 @@ var CONTENT = {
 
   // ── CTA SECTION ─────────────────────────────────────────
   cta_title:    "The engineer's path to ease.",
-  cta_subtitle: "Remote sessions available.",
   cta_btn:      "Book a Discovery Call",
 
 
   // ── FOOTER ──────────────────────────────────────────────
-  footer_copy:  "© 2026 Alexandra J. Miller, PhD · Kinetic Zenergy",
+  footer_copy:  "© 2026 Alexandra J. Miller, PhD",
   footer_email: "kinetic7energy@gmail.com",
 
 
