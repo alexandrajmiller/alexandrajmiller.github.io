@@ -25,7 +25,7 @@ var CONTENT = {
   // ============================================================
   hero_eyebrow: "",
   hero_title:    "Energy, engineered.",
-  hero_subtitle: "I bridge the analytical mind and the body's intelligence to help driven, logical people move through life with less friction and more flow.",
+  hero_subtitle: "I bridge the analytical mind and the body's intelligence to help people move through life with less friction and more flow.",
 
 
   // ============================================================
