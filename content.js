@@ -37,9 +37,9 @@ var CONTENT = {
   // ============================================================
   about_label: "",
   about_name:  "Harmonizing Logic and Intuition",
-  about_p1:    "I'm an engineer who does energy work. My background is in mechanical engineering — I spent years developing assistive technology. At some point I realized the most sophisticated system I could work on was the human body.",
-  about_p2:    "I bridge the analytical mind and the body's intelligence. I work with driven, logical people — and I speak their language.",
-  about_p3:    "",
+  about_p1:    "My mission is to help people feel fully alive in every aspect of their life. As an engineer, I wanted to achieve this through building assistive devices like prosthetic limbs. However, throughout my time in academia I saw my colleagues give so much — and burn out. I realized the biggest impact I could have on society was to help the engineer, instead of doing the engineering.",
+  about_p2:    "They were taught every productivity system, every technical tool, every optimization framework. But the most advanced technology available to them — their own body, their mind, the power of their emotions — was never part of the curriculum.",
+  about_p3:    "So now I help people work at the level Einstein and Tesla understood to be the most fundamental — energy — and build a life that matches their full potential.",
   about_tags:  [],
 
 
