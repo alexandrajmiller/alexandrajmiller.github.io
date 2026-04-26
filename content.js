@@ -166,7 +166,6 @@ var CONTENT = {
       price:       "99",
       was:         "",
       note:        "90 minutes · Remote",
-      plan:        "Your fee is credited toward any package",
       for:         "A first experience, one clear issue, or a meaningful gift.",
       includes:    [
         "Identify exactly what is blocking your energy — and how to eliminate it",
@@ -225,7 +224,6 @@ var CONTENT = {
       price:       "79",
       was:         "",
       note:        "60 minutes · Remote",
-      plan:        "Your fee is credited toward any package",
       for:         "A first experience, one acute issue, or to see how your pet responds.",
       includes:    [
         "Direct energetic assessment",
@@ -244,7 +242,6 @@ var CONTENT = {
       price:       "210",
       was:         "",
       note:        "~$70/session · 60 min each · Remote",
-      plan:        "Your fee is credited toward the 6-Session Container",
       for:         "Chronic issues, behavioural changes, or ongoing anxiety.",
       includes:    [
         "Three sessions that build on each other",
@@ -284,7 +281,6 @@ var CONTENT = {
       price:       "19",
       was:         "",
       note:        "45 min · Monthly · Monday · Zoom",
-      plan:        "Your fee is credited toward the 4-Week Course",
       for:         "Anyone curious about Qi Gong, or wanting to experience Alex's teaching before joining a course.",
       includes:    [
         "Guided 50-min Qi Gong practice led by Alex",
