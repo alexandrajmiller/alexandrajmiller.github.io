@@ -23,9 +23,8 @@ var CONTENT = {
   //  hero_title    = the BIG bold text (e.g. "Energy, engineered.")
   //  hero_subtitle = the smaller sentence below it
   // ============================================================
-  hero_eyebrow: "",
   hero_title:    "Energy, engineered.",
-  hero_subtitle: "",
+ 
 
 
   // ============================================================
