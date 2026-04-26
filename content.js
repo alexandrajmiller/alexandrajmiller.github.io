@@ -102,12 +102,12 @@ var CONTENT = {
 
 
   // ============================================================
-  //  FAQ SECTION
+  //  Background SECTION
   //  faq_title = the BIG heading above the questions
   //  To edit a question/answer: change the text inside the quotes
   //  To add a new one: copy a block and paste it with a comma
   // ============================================================
-  faq_title: "The Method - Kinetic Zenergy",
+  faq_title: "Background",
 
   faqs: [
     {
