@@ -52,7 +52,7 @@ var CONTENT = {
   services_title: "Methods",
 
   card1_title: "Energy Sessions",
-  card1_desc:  "Shift what's stuck in the bodys and conventional approaches aren't getting to the root.",
+  card1_desc:  "These sessions support your body and mind which are governed by your energy system. They work to restore balance, clarity, and alignment.",
 
   card2_title: "1:1 Coaching",
   card2_desc:  "Build what comes next. For people who want clearer thinking, better decisions, and less resistance in daily life.",
@@ -118,11 +118,11 @@ var CONTENT = {
   faqs: [
     {
       q: "What is the difference between coaching and energy sessions?",
-      a: "Personal Energy Coaching is a structured 10-session programme focused on understanding your energy patterns and building practical tools for sustained performance. Energy sessions directly address energetic blocks - physical, mental, and/or emotional."
+      a: "Personal Energy Coaching is a structured 10-session programme focused on understanding your energy patterns and building practical tools for sustained performance. Energy sessions directly clear energetic blocks - physical, mental, and/or emotional."
     },
     {
       q: "Do sessions need to be done in person?",
-      a: "No — all services are available fully remote."
+      a: "No — all sessions are remote."
     },
     {
       q: "How quickly will I notice results?",
