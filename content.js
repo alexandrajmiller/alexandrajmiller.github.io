@@ -107,34 +107,7 @@ var CONTENT = {
   ],
 
 
-  // ============================================================
-  //  Background SECTION
-  //  faq_title = the BIG heading above the questions
-  //  To edit a question/answer: change the text inside the quotes
-  //  To add a new one: copy a block and paste it with a comma
-  // ============================================================
-  faq_title: "Background",
-
-  faqs: [
-    {
-      q: "What is the difference between coaching and energy sessions?",
-      a: "Personal Energy Coaching is a structured 10-session programme focused on understanding your energy patterns and building practical tools for sustained performance. Energy sessions directly clear energetic blocks - physical, mental, and/or emotional."
-    },
-    {
-      q: "Do sessions need to be done in person?",
-      a: "No — all sessions are remote."
-    },
-    {
-      q: "How quickly will I notice results?",
-      a: "Many people experience noticeable shifts within 24–72 hours of their first session — improved sleep, reduced pain, and/or greater mental clarity. Lasting transformation is developed during the full program."
-    },
-    
-    {
-      q: "How do pet energy sessions work?",
-      a: "These apply the same energetic principles used for people to support the well-being of pets. Sessions can be conducted remotely. I have worked with cats, dogs, and horses experiencing illness, anxiety, or behavioural challenges."
-    }
-  ],
-
+  
 
   // ============================================================
   //  BOOKING SECTION
@@ -288,6 +261,33 @@ var CONTENT = {
       stripe_link: "mailto:kinetic7energy@gmail.com?subject=Qi%20Gong%204-Week%20Waitlist",
       featured:    true,
       badge:       ""
+    }
+  ],
+// ============================================================
+  //  FAQ SECTION
+  //  faq_title = the BIG heading above the questions
+  //  To edit a question/answer: change the text inside the quotes
+  //  To add a new one: copy a block and paste it with a comma
+  // ============================================================
+  faq_title: "Frequently Asked Questions",
+
+  faqs: [
+    {
+      q: "What is the difference between coaching and energy sessions?",
+      a: "Personal Energy Coaching is a structured 10-session programme focused on understanding your energy patterns and building practical tools for sustained performance. Energy sessions directly clear energetic blocks - physical, mental, and/or emotional."
+    },
+    {
+      q: "Do sessions need to be done in person?",
+      a: "No — all sessions are remote."
+    },
+    {
+      q: "How quickly will I notice results?",
+      a: "Many people experience noticeable shifts within 24–72 hours of their first session — improved sleep, reduced pain, and/or greater mental clarity. Lasting transformation is developed during the full program."
+    },
+    
+    {
+      q: "How do pet energy sessions work?",
+      a: "These apply the same energetic principles used for people to support the well-being of pets. Sessions can be conducted remotely. I have worked with cats, dogs, and horses experiencing illness, anxiety, or behavioural challenges."
     }
   ],
 
