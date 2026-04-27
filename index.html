@@ -438,7 +438,7 @@ function buildCards(sessions, containerId) {
     var badge = s.featured && s.badge ? '<span class="booking-card-badge">' + s.badge + '</span>' : '';
     var includes = s.includes.map(function(li){ return '<li>' + li + '</li>'; }).join('');
     var plan = s.plan ? '<p class="booking-card-price-note" style="margin-top:4px;">' + s.plan + '</p>' : '';
-    container.innerHTML += '<div class="booking-card' + (s.featured ? ' featured-card' : '') + ' fade-in">' + badge + '<p class="booking-card-type">' + s.type + '</p><h3>' + s.title + '</h3>' + priceBlock + '<p class="booking-card-price-note">' + s.note + '</p>' + plan + '<p class="booking-card-for"><strong>For:</strong> ' + s.for + '</p><ul class="booking-card-includes">' + includes + '</ul><a href="' + s.stripe_link + '" target="_blank" rel="noopener" class="btn-book ' + (s.featured ? 'btn-book-primary' : 'btn-book-secondary') + '">' + s.btn + '</div>';
+    container.innerHTML += '<div class="booking-card' + (s.featured ? ' featured-card' : '') + ' fade-in">' + badge + '<p class="booking-card-type">' + s.type + '</p><h3>' + s.title + '</h3>' + priceBlock + '<p class="booking-card-price-note">' + s.note + '</p>' + plan + '<p class="booking-card-for">' + s.for + '</p><ul class="booking-card-includes">' + includes + '</ul><a href="' + s.stripe_link + '" target="_blank" rel="noopener" class="btn-book ' + (s.featured ? 'btn-book-primary' : 'btn-book-secondary') + '">' + s.btn + '</div>';
   });
 }
 buildCards(CONTENT.human_sessions,  'cards-human');
