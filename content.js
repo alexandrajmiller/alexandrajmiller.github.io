@@ -111,28 +111,21 @@ var CONTENT = {
 
   faqs: [
     {
-      q: "Who is Alexandra J. Miller, PhD and what is Kinetic Zenergy?",
-      a: "Alexandra is a personal energy coach and healer. Kinetic Zenergy is her signature method — designed for high-performing professionals, creatives, and leaders who feel the toll of chronic overload. Remote sessions available worldwide."
-    },
-    {
-      q: "What is the difference between coaching and healing sessions?",
-      a: "Personal Energy Coaching is a structured 10-session programme focused on understanding your energy patterns and building practical tools for sustained performance. Energetic Healing is session-based work that directly addresses energy blocks, physical discomfort, or emotional depletion. Many clients experience both as complementary."
+      q: "What is the difference between coaching and energy sessions?",
+      a: "Personal Energy Coaching is a structured 10-session programme focused on understanding your energy patterns and building practical tools for sustained performance. Energy sessions directly address energetic blocks - physical, mental, and/or emotional."
     },
     {
       q: "Do sessions need to be done in person?",
-      a: "No — all services are available fully remotely. Clients across the globe report the same depth of experience as in-person sessions."
+      a: "No — all services are available fully remote."
     },
     {
       q: "How quickly will I notice results?",
-      a: "Many clients report noticeable shifts within 24–48 hours of their first session — improved sleep, reduced pain, greater mental clarity, or a sense of lightness they hadn't felt in months. Deep, lasting transformation builds across the full programme."
+      a: "Many people experience noticeable shifts within 24–72 hours of their first session — improved sleep, reduced pain, and/or greater mental clarity. Lasting transformation is developed during the full program."
     },
+    
     {
-      q: "Is energetic healing compatible with conventional medical care?",
-      a: "Yes — energetic healing is a complementary modality and works alongside conventional medical treatment, not in place of it. Always consult your physician for any medical condition."
-    },
-    {
-      q: "How does pet energy healing work?",
-      a: "Pet energy healing applies the same energetic principles used in human sessions to support the wellbeing of pets. Sessions can be conducted remotely. Alex has worked with cats, dogs, and horses experiencing illness, anxiety, or behavioural changes."
+      q: "How do pet energy sessions work?",
+      a: "These apply the same energetic principles used for people to support the well-being of pets. Sessions can be conducted remotely. I have worked with cats, dogs, and horses experiencing illness, anxiety, or behavioural challenges."
     }
   ],
 
@@ -162,12 +155,12 @@ var CONTENT = {
   human_sessions: [
     {
       type:        "Single Session",
-      title:       "One Session. Real Shift.",
+      //title:       "One Session. Real Shift.",
       price:       "99",
       was:         "",
-      note:        "90 minutes · Remote",
-      for:         "A first experience, one clear issue, or a meaningful gift.",
-      includes:    [
+      //note:        "90 minutes · Remote",
+      //for:         "A first experience, one clear issue, or a mean.",
+      //includes:    [
         "Identify exactly what is blocking your energy — and how to eliminate it",
         "A personal practice built for your body, not a generic protocol",
         "Session notes within 48 hrs",
@@ -180,15 +173,14 @@ var CONTENT = {
     },
     {
       type:        "3-Session Journey",
-      title:       "Three Sessions. One Clear Thread.",
+      //title:       "Three Sessions. One Clear Thread.",
       price:       "247",
-      was:         "$297",
-      note:        "Save $50 · ~$82/session · 90 min each",
+      //was:         "$297",
+      //note:        "Save $50 · ~$82/session · 90 min each",
       plan:        "",
-      for:         "Clearing a defined block, resetting a pattern, or preparing for a transition.",
+      //for:         "Clearing a defined block, resetting a pattern, or preparing for a transition.",
       includes:    [
-        "Three sessions that build on each other",
-        "WhatsApp check-ins between sessions"
+        ""
       ],
       btn:         "Book",
       stripe_link: "https://buy.stripe.com/14AfZae53dtBa9n5LE1ck02",
@@ -197,18 +189,14 @@ var CONTENT = {
     },
     {
       type:        "6-Session Container",
-      title:       "Six Sessions. Full Transformation.",
+      //title:       "Six Sessions. Full Transformation.",
       price:       "447",
       was:         "$594",
-      note:        "Save $147 · ~$74/session · 90 min each",
-      plan:        "or 2 monthly payments of $224",
-      for:         "Most clients choose this. It's where the real work happens.",
+      //note:        "Save $147 · ~$74/session · 90 min each",
+      //plan:        "or 2 monthly payments of $224",
+      //for:         "Most clients choose this. It's where the real work happens.",
       includes:    [
-        "Understand your energy system at a level that changes everything",
-        "Break through the invisible ceiling — and stay through",
-        "Daily practices built into your real life",
-        "WhatsApp support between sessions",
-        "Full recordings + integration notes after every session"
+        ""
       ],
       btn:         "Book",
       stripe_link: "https://buy.stripe.com/14AcMY6CBahpftH8XQ1ck03",
@@ -223,15 +211,15 @@ var CONTENT = {
       title:       "One Session. For Your Pet.",
       price:       "79",
       was:         "",
-      note:        "60 minutes · Remote",
-      for:         "A first experience, one acute issue, or to see how your pet responds.",
+      //note:        "60 minutes · Remote",
+      //for:         "A first experience, one acute issue, or to see how your pet responds.",
       includes:    [
         "Direct energetic assessment",
         "Identify and clear what is affecting your pet",
         "Session notes + home guidance",
         "Effective for anxiety, illness, and recovery"
       ],
-      btn:         "Reserve a Session →",
+      btn:         "Reserve a Session",
       stripe_link: "https://buy.stripe.com/9B628kgdbexFdlzfme1ck04",
       featured:    false,
       badge:       ""
@@ -241,33 +229,28 @@ var CONTENT = {
       title:       "Three Sessions. Sustained Shifts.",
       price:       "210",
       was:         "",
-      note:        "~$70/session · 60 min each · Remote",
-      for:         "Chronic issues, behavioural changes, or ongoing anxiety.",
+      //note:        "~$70/session · 60 min each · Remote",
+      //for:         "Chronic issues, behavioural changes, or ongoing anxiety.",
       includes:    [
-        "Three sessions that build on each other",
-        "Progress notes after each session",
-        "WhatsApp check-ins between sessions"
+        ""
       ],
-      btn:         "Begin the Journey →",
+      btn:         "Book",
       stripe_link: "https://buy.stripe.com/aFa3co3qpfBJ95jca21ck05",
       featured:    false,
       badge:       ""
     },
     {
       type:        "6-Session Container",
-      title:       "Six Sessions. Real Transformation.",
+      //title:       "Six Sessions. Real Transformation.",
       price:       "390",
       was:         "",
-      note:        "~$65/session · 60 min each · Remote",
-      plan:        "or 2 monthly payments",
+      //note:        "~$65/session · 60 min each · Remote",
+      //plan:        "or 2 monthly payments",
       for:         "Long-standing conditions, full recovery support, or deep behavioral work.",
       includes:    [
-        "Six weekly remote sessions — building, consistent work",
-        "Progress notes after every session",
-        "WhatsApp support throughout",
-        "Home guidance tailored to your pet"
+        ""
       ],
-      btn:         "Start the 6-Session Container →",
+      btn:         "Book",
       stripe_link: "https://buy.stripe.com/7sY4gs4ut89hepDde61ck06",
       featured:    true,
       badge:       ""
