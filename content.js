@@ -210,7 +210,7 @@ var CONTENT = {
         "WhatsApp support between sessions",
         "Full recordings + integration notes after every session"
       ],
-      btn:         "Commit to the Journey",
+      btn:         "Book",
       stripe_link: "https://buy.stripe.com/14AcMY6CBahpftH8XQ1ck03",
       featured:    true,
       badge:       ""
