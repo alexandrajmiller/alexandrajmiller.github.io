@@ -82,14 +82,7 @@
     .about-tag { background:var(--pale-sage); color:var(--black); font-size:12px; font-weight:600; padding:7px 14px; border-radius:50px; }
     @media(max-width:900px){ .about-grid{grid-template-columns:1fr; gap:40px;} .about-photo-wrap{max-width:320px;} }
    
-    /* FAQ — plain prose */
-    .faq-section { background:var(--off-white); padding:96px 0; border-top:1px solid var(--border); }
-    .faq-prose { max-width:720px; }
-    .faq-prose h2 { font-size:clamp(26px,3vw,38px); color:var(--black); margin-bottom:48px; }
-    .faq-item-prose { margin-bottom:40px; }
-    .faq-item-prose h4 { font-size:17px; font-weight:700; color:var(--black); margin-bottom:10px; }
-    .faq-item-prose p { font-size:16px; color:var(--muted); line-height:1.75; }
-
+   
     /* BENTO */
     .bento-section { background:var(--white); padding:80px 0; border-top:1px solid var(--border); }
     .bento-header { margin-bottom:48px; }
@@ -161,6 +154,14 @@
     .booking-card-was { color:var(--muted); text-decoration:line-through; margin-right:12px; }
     .booking-card-price-block { margin-bottom:8px; }
     @media(max-width:900px){ .booking-cards-3{grid-template-columns:1fr;} }
+    
+   /* FAQ — plain prose */
+    .faq-section { background:var(--off-white); padding:96px 0; border-top:1px solid var(--border); }
+    .faq-prose { max-width:720px; }
+    .faq-prose h2 { font-size:clamp(26px,3vw,38px); color:var(--black); margin-bottom:48px; }
+    .faq-item-prose { margin-bottom:40px; }
+    .faq-item-prose h4 { font-size:17px; font-weight:700; color:var(--black); margin-bottom:10px; }
+    .faq-item-prose p { font-size:16px; color:var(--muted); line-height:1.75; }
 
     /* CTA */
     .cta-section { background:var(--olive); padding:96px 0; text-align:center; }
@@ -312,12 +313,6 @@
   </div>
 </section>
 
-<!-- FAQ — plain prose, no accordion -->
-<section class="faq-section" id="faq">
-  <div class="container">
-    <div class="faq-prose fade-in" id="faq-prose"></div>
-  </div>
-</section>
 
 <!-- BOOKING -->
 <section class="booking-section" id="book">
@@ -357,6 +352,13 @@
 </section> 
   -->
   
+<!-- FAQ — plain prose, no accordion -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <div class="faq-prose fade-in" id="faq-prose"></div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <div class="container">
