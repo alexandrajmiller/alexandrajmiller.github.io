@@ -68,7 +68,7 @@ var CONTENT = {
   //  VIDEO SECTION — Dawn Hoang session video
   //  video_title = the BIG heading above the video
   // ============================================================
-  video_title: "What People Experience",
+  video_title: "Client Experience",
 
 
   // ============================================================
