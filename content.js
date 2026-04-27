@@ -190,7 +190,7 @@ var CONTENT = {
         "Three sessions that build on each other",
         "WhatsApp check-ins between sessions"
       ],
-      btn:         "Begin the Journey",
+      btn:         "Book",
       stripe_link: "https://buy.stripe.com/14AfZae53dtBa9n5LE1ck02",
       featured:    false,
       badge:       ""
