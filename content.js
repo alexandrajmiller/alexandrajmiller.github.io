@@ -15,7 +15,7 @@ var CONTENT = {
   // ============================================================
   //  NAV BAR — the name that appears in the center top
   // ============================================================
-  nav_name: "ALEXANDRA MILLER, PhD",
+  nav_name: "ALEXANDRA J. MILLER, PhD",
 
 
   // ============================================================
