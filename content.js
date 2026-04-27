@@ -170,7 +170,7 @@ var CONTENT = {
     },
     {
       type:        "3-Session Journey",
-      //title:       "",
+      title:       "",
       price:       "247",
       was:         "",
       note:        "",
