@@ -155,17 +155,14 @@ var CONTENT = {
   human_sessions: [
     {
       type:        "Single Session",
-      //title:       "One Session. Real Shift.",
+      title:       "",
       price:       "99",
       was:         "",
-      //note:        "90 minutes · Remote",
-      //for:         "A first experience, one clear issue, or a mean.",
-      //includes:    [
-        "Identify exactly what is blocking your energy — and how to eliminate it",
-        "A personal practice built for your body, not a generic protocol",
-        "Session notes within 48 hrs",
-        "7-day follow-up window"
-      ],
+      note:        "",
+      for:         "",
+      includes:    [
+        "",
+              ],
       btn:         "Book",
       stripe_link: "https://buy.stripe.com/bJe3co5yx3T1dlz6PI1ck01",
       featured:    false,
@@ -173,12 +170,12 @@ var CONTENT = {
     },
     {
       type:        "3-Session Journey",
-      //title:       "Three Sessions. One Clear Thread.",
+      //title:       "",
       price:       "247",
-      //was:         "$297",
-      //note:        "Save $50 · ~$82/session · 90 min each",
+      was:         "",
+      note:        "",
       plan:        "",
-      //for:         "Clearing a defined block, resetting a pattern, or preparing for a transition.",
+      for:         "",
       includes:    [
         ""
       ],
@@ -189,12 +186,12 @@ var CONTENT = {
     },
     {
       type:        "6-Session Container",
-      //title:       "Six Sessions. Full Transformation.",
-      price:       "447",
-      was:         "$594",
-      //note:        "Save $147 · ~$74/session · 90 min each",
-      //plan:        "or 2 monthly payments of $224",
-      //for:         "Most clients choose this. It's where the real work happens.",
+      title:       "",
+      price:       "",
+      was:         "",
+      note:        "",
+      plan:        "",
+      for:         "",
       includes:    [
         ""
       ],
@@ -208,29 +205,26 @@ var CONTENT = {
   pet_sessions: [
     {
       type:        "Single Session",
-      title:       "One Session. For Your Pet.",
+      title:       "",
       price:       "79",
       was:         "",
-      //note:        "60 minutes · Remote",
-      //for:         "A first experience, one acute issue, or to see how your pet responds.",
+      note:        "",
+      for:         "",
       includes:    [
-        "Direct energetic assessment",
-        "Identify and clear what is affecting your pet",
-        "Session notes + home guidance",
-        "Effective for anxiety, illness, and recovery"
+        ""
       ],
-      btn:         "Reserve a Session",
+      btn:         "Book",
       stripe_link: "https://buy.stripe.com/9B628kgdbexFdlzfme1ck04",
       featured:    false,
       badge:       ""
     },
     {
       type:        "3-Session Journey",
-      title:       "Three Sessions. Sustained Shifts.",
+      title:       "",
       price:       "210",
       was:         "",
-      //note:        "~$70/session · 60 min each · Remote",
-      //for:         "Chronic issues, behavioural changes, or ongoing anxiety.",
+      note:        "",
+      for:         "",
       includes:    [
         ""
       ],
@@ -241,12 +235,12 @@ var CONTENT = {
     },
     {
       type:        "6-Session Container",
-      //title:       "Six Sessions. Real Transformation.",
+      //title:       "",
       price:       "390",
       was:         "",
-      //note:        "~$65/session · 60 min each · Remote",
-      //plan:        "or 2 monthly payments",
-      for:         "Long-standing conditions, full recovery support, or deep behavioral work.",
+      note:        "",
+      plan:        "",
+      for:         "",
       includes:    [
         ""
       ],
