@@ -314,7 +314,7 @@ var CONTENT = {
     }
   ],
 
-
+/*
   // ============================================================
   //  CTA SECTION — the big olive green banner at the bottom
   //  cta_title = the BIG heading
@@ -322,7 +322,7 @@ var CONTENT = {
   // ============================================================
   cta_title: "The engineer's path to ease.",
   cta_btn:   "Book a Discovery Call",
-
+*/
 
   // ============================================================
   //  FOOTER
