@@ -56,10 +56,10 @@ var CONTENT = {
 
   card2_title: "1:1 Coaching",
   card2_desc:  "Build what comes next. For people who want clearer thinking, better decisions, and less resistance in daily life.",
-/*
+
   card3_title: "Qi Gong Instruction",
   card3_desc:  "Learn to regulate your own energy. A daily practice for committed clients — self-directed, somatic, long-term.",
-*/
+
   card4_title: "Energy Sessions for Your Pet",
   card4_desc:  "Pets absorb and reflect the energy of their environment. When they're off, it's often a signal. This addresses it directly.",
 
