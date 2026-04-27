@@ -61,7 +61,7 @@ var CONTENT = {
   card3_desc:  "Learn to regulate your own energy. A daily practice for committed clients — self-directed, somatic, long-term.",
 
   card4_title: "Energy Sessions for Your Pet",
-  card4_desc:  "Pets absorb and reflect the energy of their environment. When they're off, it's often a signal. This addresses it directly.",
+  card4_desc:  "Just like people, pets absorb and reflect the energy of their environment. Energy sessions help to realign, stabilize, and harmonize your pet's energy system to improve mood and overall health and well-being.",
 
 
   // ============================================================
