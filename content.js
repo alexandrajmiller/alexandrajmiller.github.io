@@ -24,6 +24,7 @@ var CONTENT = {
   //  hero_subtitle = the smaller sentence below it
   // ============================================================
   hero_title:    "Energy, engineered.",
+  hero_eyebrow:  "", // Add this line
  
 
 
