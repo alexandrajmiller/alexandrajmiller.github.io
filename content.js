@@ -173,7 +173,7 @@ var CONTENT = {
         "Session notes within 48 hrs",
         "7-day follow-up window"
       ],
-      btn:         "Reserve Your Session",
+      btn:         "Book",
       stripe_link: "https://buy.stripe.com/bJe3co5yx3T1dlz6PI1ck01",
       featured:    false,
       badge:       ""
