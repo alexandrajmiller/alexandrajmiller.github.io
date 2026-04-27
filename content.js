@@ -77,7 +77,7 @@ var CONTENT = {
   //  To add/edit a quote: change the text inside the quotes
   //  To add a new person: copy one block and paste it with a comma
   // ============================================================
-  /* voices_title: "What People Say", */
+  /* voices_title: "Client Experience", */
 
   testimonials: [
     {
