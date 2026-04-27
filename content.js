@@ -145,7 +145,9 @@ var CONTENT = {
       stripe_link: "https://buy.stripe.com/bJe3co5yx3T1dlz6PI1ck01",
       featured:    false,
       badge:       ""
-    },
+    }
+
+    /*
     {
       type:        "3-Session Journey",
       title:       "",
@@ -176,6 +178,7 @@ var CONTENT = {
       featured:    true,
       badge:       ""
     }
+    */
   ],
 
   pet_sessions: [
@@ -192,7 +195,9 @@ var CONTENT = {
       stripe_link: "https://buy.stripe.com/9B628kgdbexFdlzfme1ck04",
       featured:    false,
       badge:       ""
-    },
+    }
+
+    /*
     {
       type:        "3-Session Journey",
       title:       "",
@@ -222,6 +227,7 @@ var CONTENT = {
       featured:    true,
       badge:       ""
     }
+    */
   ],
 
   qigong_sessions: [
