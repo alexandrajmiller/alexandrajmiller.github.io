@@ -81,22 +81,28 @@ var CONTENT = {
 
   testimonials: [
     {
-      quote:   "Within weeks after our session she slowly regained her strength and is now back home. I truly believe these sessions played a major role. I've also learned so much about tapping into my own energy.",
+      quote:   "Alex, I cannot thank you enough for the wonderful energy sessions. I’m especially grateful for the session we did focusing on my grandma. We weren’t sure if she was going to make it. But within a couple of weeks after our session she slowly regained her strength and now she’s out of the hospital back at home with my family. I truly believe these sessions have played a major role in helping her regain her strength. And I’ve also learned so much about tapping in and tuning into my own energy & intuition. Words can’t express how this has touched and changed my life. Thank you! ",
       name:    "Tupa",
-      role:    "Healing session for her grandmother",
-      initial: "T"
+      role:    "Energy session for her grandmother",
+      initial: ""
     },
     {
       quote:   "The grounding technique makes me feel present faster than meditation. It works not only on grounding myself, but on grounding my mission and goal. It aligns with my instincts so smoothly.",
       name:    "Michael",
-      role:    "Performance · Clarity",
-      initial: "M"
+      role:    "Post Doctoral Researcher - Johns Hopkins University",
+      initial: ""
     },
     {
-      quote:   "I was skeptical at first, but the results were undeniable. My thinking became clearer, my energy stabilized, and I started making decisions that actually felt right — not just logical.",
-      name:    "R.K.",
-      role:    "Engineering researcher",
-      initial: "R"
+      quote:   "When I was sick, Alex did a few healing sessions on me and the next morning after the first one, I woke up with FAR less congestion than even the day before. I was able to breathe easier. It was a remarkable difference in only one night!",
+      name:    "Skyler",
+      role:    "Personal Assistant",
+      initial: ""
+    },
+        {
+      quote:   "My healing session with Alex was powerful and transformative! She is a compassionate, caring, and connected practitioner. Alex provided a focused, empathetic space for miraculous healing, growth, and change to be possible. I highly recommend her…thank you, Alex! ",
+      name:    "Dave",
+      role:    "Counselor",
+      initial: ""
     }
   ],
 
