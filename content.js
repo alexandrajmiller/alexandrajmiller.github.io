@@ -212,7 +212,6 @@ var CONTENT = {
       price:       "79",
       was:         "",
       note:        "",
-      for:         "",
       includes:    [
         ""
       ],
@@ -227,7 +226,6 @@ var CONTENT = {
       price:       "210",
       was:         "",
       note:        "",
-      for:         "",
       includes:    [
         ""
       ],
@@ -243,7 +241,6 @@ var CONTENT = {
       was:         "",
       note:        "",
       plan:        "",
-      for:         "",
       includes:    [
         ""
       ],
