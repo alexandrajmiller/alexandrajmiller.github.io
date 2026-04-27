@@ -235,7 +235,7 @@ var CONTENT = {
     },
     {
       type:        "6-Session Container",
-      //title:       "",
+      title:       "",
       price:       "390",
       was:         "",
       note:        "",
