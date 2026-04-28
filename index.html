@@ -258,7 +258,7 @@
         <div class="bento-card-photo" style="background-image:url('Alex_Miller_Qi_Gong_600x700_compressed.jpg'); background-position:center top;"></div>
         <div class="bento-card-panel panel-olive">
           <div><h3 id="c1-title"></h3><p id="c1-desc"></p></div>
-          <a href="#book" class="bento-cta">Book →</a>
+            <a id="c1-link" href="" class="bento-cta">Book →</a>        
         </div>
       </div>
 
@@ -266,7 +266,7 @@
       <div class="bento-card fade-in">
         <div class="bento-card-panel panel-amber">
           <div><h3 id="c2-title"></h3><p id="c2-desc"></p></div>
-          <a href="#book" class="bento-cta">Book →</a>
+            <a id="c2-link" href="" class="bento-cta">Book →</a>        
         </div>
         <div class="bento-card-photo" style="background-image:url('Alex_Miller_Online_Coaching_600x700.jpg'); background-position:center;"></div>
       </div>
@@ -407,6 +407,7 @@ set('services-title', CONTENT.services_title);
 ['c1','c2','c3','c4'].forEach(function(id, i) {
   var titles = [CONTENT.card1_title, CONTENT.card2_title, CONTENT.card3_title, CONTENT.card4_title];
   var descs  = [CONTENT.card1_desc,  CONTENT.card2_desc,  CONTENT.card3_desc,  CONTENT.card4_desc];
+  var links  = [CONTENT.card1_link,  CONTENT.card2_link,  CONTENT.card3_link,  CONTENT.card4_link]; 
   set(id+'-title', titles[i]); set(id+'-desc', descs[i]);
 });
 
