@@ -458,7 +458,7 @@ set('about-name',  CONTENT.about_name);
 set('about-p1',    CONTENT.about_p1);
 set('about-p2',    CONTENT.about_p2);
 set('about-p3',    CONTENT.about_p3);
-setHref('about-cta', CONTENT.links.discovery_call);
+setHref('about-cta', CONTENT.discovery_call_link);
 var tagsEl = document.getElementById('about-tags');
 CONTENT.about_tags.forEach(function(tag) {
   var span = document.createElement('span'); span.className = 'about-tag'; span.textContent = tag; tagsEl.appendChild(span);
