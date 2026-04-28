@@ -62,7 +62,7 @@ var CONTENT = {
     
   card3_title: "Qi Gong Instruction",
   card3_desc:  "Learn to regulate your own energy. A daily practice for committed clients — self-directed, somatic, long-term.",
-
+  card3_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/2EFSFUG3I5CHDSXM5IOAKYVZ",
   card4_title: "Energy Sessions for Your Pet",
   card4_desc:  "Just like people, pets absorb and reflect the energy of their environment. Energy sessions help to realign, stabilize, and harmonize your pet's energy system to improve mood and overall health and well-being.",
 
