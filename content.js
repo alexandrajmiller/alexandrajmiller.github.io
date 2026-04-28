@@ -317,6 +317,9 @@ var CONTENT = {
   // ============================================================
   discovery_title: "If you aren't sure which path is right for you, let's connect.",
   discovery_btn:   "Book a Discovery Call",
+  links: {
+    discovery_call: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/QNWKJNXHBCAKFIYXZVJF6GAN"
+  }
   
   // ============================================================
   //  FOOTER
