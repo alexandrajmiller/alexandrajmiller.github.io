@@ -79,7 +79,7 @@ var CONTENT = {
 
   testimonials: [
     {
-      quote:   "Alex, I cannot thank you enough for the wonderful energy sessions. I'm especially grateful for the session we did focusing on my grandma. We weren't sure if she was going to make it. But within a couple of weeks after our session she slowly regained her strength and now she's out of the hospital back at home with my family. I truly believe these sessions have played a major role in helping her regain her strength. And I've also learned so much about tapping in and tuning into my own energy & intuition. Words can't express how this has touched and changed my life. Thank you! ",
+      quote:   "Alex, I cannot thank you enough for the wonderful energy sessions. I’m especially grateful for the session we did focusing on my grandma. We weren’t sure if she was going to make it. But within a couple of weeks after our session she slowly regained her strength and now she’s out of the hospital back at home with my family. I truly believe these sessions have played a major role in helping her regain her strength. And I’ve also learned so much about tapping in and tuning into my own energy & intuition. Words can’t express how this has touched and changed my life. Thank you! ",
       name:    "Tupa",
       role:    "Energy session for her grandmother",
       initial: ""
@@ -137,7 +137,7 @@ var CONTENT = {
       was:         "",
       note:        "60 min Remote Session",
       for:         "",
-      includes: ["This private 1:1 session is designed to help you clear and stabilize the internal "noise" that's interfering with how you think, feel, and move through life. We work with your emotional and nervous system signals to reduce distortion in the areas that matter most—especially relationships and the things you value but feel resistance around. The aim is to bring your system back into a more coherent, resonant state so you can act with more clarity and ease. We also help clear lingering patterns and residual "signal imprints" from past experiences so your system responds to the present rather than outdated inputs. The result is a more stabilized internal field—less interference, more coherence—so your energy is available for what you want to build, create, and experience."],
+      includes: ["This private 1:1 session is designed to help you clear and stabilize the internal “noise” that’s interfering with how you think, feel, and move through life. We work with your emotional and nervous system signals to reduce distortion in the areas that matter most—especially relationships and the things you value but feel resistance around. The aim is to bring your system back into a more coherent, resonant state so you can act with more clarity and ease. We also help clear lingering patterns and residual “signal imprints” from past experiences so your system responds to the present rather than outdated inputs. The result is a more stabilized internal field—less interference, more coherence—so your energy is available for what you want to build, create, and experience."],
 
       btn:         "Book",
       stripe_link: "https://buy.stripe.com/bJe3co5yx3T1dlz6PI1ck01",
