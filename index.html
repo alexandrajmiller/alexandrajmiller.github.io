@@ -178,6 +178,10 @@
     .fade-in.visible { opacity:1; transform:translateY(0); }
     @media(max-width:900px){ .container{padding:0 24px;} }
 
+    button[data-tab="qigong"] {
+      display: none !important;
+    }
+        
     #book {
       display: none !important;
     }
@@ -502,8 +506,7 @@ setHref('disc-btn', CONTENT.links.discovery_call);
 set('discovery-title', CONTENT.discovery_call_text);
 set('discovery-desc', CONTENT.discovery_call_sub);
 set('discovery-link', CONTENT.discovery_call_btn);
-setHref('discovery-link', CONTENT.links.discovery_call);
-
+setHref('discovery-link', CONTENT.discovery_call_link);
   
 function buildCards(sessions, containerId) {
   var container = document.getElementById(containerId);
