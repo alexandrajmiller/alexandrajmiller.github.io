@@ -16,10 +16,10 @@ var CONTENT = {
   //  hero_subtitle = the smaller sentence below it
   // ============================================================
   hero_title:    "Energy, engineered.",
-  hero_eyebrow:  "", 
+  hero_eyebrow:  "",
   hero_subtitle: "",
 
- 
+
 
 
   // ============================================================
@@ -49,15 +49,15 @@ var CONTENT = {
   card1_title: "Energy Sessions",
   card1_desc:  "These sessions support your body and mind which are governed by your energy system. They work to restore balance, clarity, and alignment.",
   card1_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/537R2XELAH64LFL734HDUM5W",
-  
+
   card2_title: "1:1 Coaching",
   card2_desc:  "Build what comes next. For people who want clearer thinking, better decisions, and less resistance in daily life.",
   card2_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/UHNK637DZW5KZ2V3ZVR2ECUA",
-    
+
   card3_title: "Qi Gong Instruction",
   card3_desc:  "Learn to regulate your own energy. A daily practice for committed clients — self-directed, somatic, long-term.",
   card3_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/2EFSFUG3I5CHDSXM5IOAKYVZ",
-  
+
   card4_title: "Energy Sessions for Your Pet",
   card4_desc:  "Just like people, pets absorb and reflect the energy of their environment. Energy sessions help to realign, stabilize, and harmonize your pet's energy system to improve mood and overall health and well-being.",
   card4_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/2EFSFUG3I5CHDSXM5IOAKYVZ",
@@ -75,7 +75,7 @@ var CONTENT = {
   //  To add/edit a quote: change the text inside the quotes
   //  To add a new person: copy one block and paste it with a comma
   // ============================================================
-  voices_title: "", 
+  voices_title: "",
 
   testimonials: [
     {
@@ -105,7 +105,7 @@ var CONTENT = {
   ],
 
 
-  
+
 
   // ============================================================
   //  BOOKING SECTION
@@ -289,7 +289,7 @@ var CONTENT = {
       q: "How quickly will I notice results?",
       a: "Many people experience noticeable shifts within 24–72 hours of their first session — improved sleep, reduced pain, and/or greater mental clarity. Lasting transformation is developed during the full program."
     },
-    
+
     {
       q: "How do pet energy sessions work?",
       a: "These apply the same energetic principles used for people to support the well-being of pets. Sessions can be conducted remotely. I have worked with cats, dogs, and horses experiencing illness, anxiety, or behavioural challenges."
