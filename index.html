@@ -103,9 +103,17 @@
     @media(max-width:900px){ .bento-grid{grid-template-columns:1fr;} }
     @media(max-width:600px){ .bento-card{grid-template-columns:1fr;} .bento-card-photo{min-height:260px; width:100%; background-size:cover; background-position:center top; overflow:hidden;} }
 
+    /* DISCOVERY STRIP */
+    .discovery-strip { background:var(--white); padding:0 0 80px; border-bottom:1px solid var(--border); }
+    .discovery-strip-inner { background:var(--linen); border:1px solid var(--border); border-radius:14px; padding:24px 32px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; }
+    .discovery-strip-text { font-size:16px; color:var(--charcoal); margin:0; font-weight:500; }
+    .discovery-strip-btn { display:inline-flex; align-items:center; gap:6px; background:var(--sage); color:var(--white); padding:13px 26px; border-radius:50px; font-size:14px; font-weight:600; white-space:nowrap; transition:background 0.2s; }
+    .discovery-strip-btn:hover { background:var(--sage-lt); }
+    @media(max-width:600px){ .discovery-strip-inner{flex-direction:column; align-items:flex-start; padding:24px;} .discovery-strip-btn{width:100%; justify-content:center;} }
+
     /* VIDEO */
     .video-section { background:var(--off-white); padding:80px 0; border-top:1px solid var(--border); }
-    .video-inner { max-width:820px; margin:0 auto; text-align:left; }
+    .video-inner { max-width:820px; text-align:left; }
     .video-inner h2 { font-size:clamp(28px,3vw,44px); color:var(--black); margin-bottom:40px; }
     .video-embed { position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:14px; box-shadow:var(--shadow-lg); background:var(--forest); }
     .video-embed iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
@@ -297,6 +305,16 @@
     </div>
   </div>
 </section>
+
+<!-- Discovery Call Strip -->
+<div class="discovery-strip">
+  <div class="container">
+    <div class="discovery-strip-inner fade-in">
+      <p class="discovery-strip-text">Not sure which session is right for you? Book a discovery call.</p>
+      <a href="https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/QNWKJNXHBCAKFIYXZVJF6GAN" target="_blank" rel="noopener" class="discovery-strip-btn">Book Discovery Call →</a>
+    </div>
+  </div>
+</div>
 
 <!-- VIDEO — just the big title + embed -->
 <section class="video-section" id="video">
