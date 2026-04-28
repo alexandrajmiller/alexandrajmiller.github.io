@@ -317,9 +317,7 @@ var CONTENT = {
   // ============================================================
   discovery_title: "If you aren't sure which path is right for you, let's connect.",
   discovery_btn:   "Book a Discovery Call",
-  links: {
-    discovery_call: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/QNWKJNXHBCAKFIYXZVJF6GAN"
-  }
+  discovery_call_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/QNWKJNXHBCAKFIYXZVJF6GAN",
   
   // ============================================================
   //  FOOTER
@@ -328,17 +326,6 @@ var CONTENT = {
   // ============================================================
   footer_copy:  "© 2026 Alexandra J. Miller, PhD",
   footer_email: "kinetic7energy@gmail.com",
-
-
-  // ============================================================
-  //  LINKS — change these and they update everywhere on the site
-  //  discovery_call = your booking/calendar link
-  //  email          = your contact email
-  // ============================================================
-  links: {
-    discovery_call: "https://calendar.app.google/Si1Zc6rGKZ7mLRDR8",
-    email:          "kinetic7energy@gmail.com"
-  }
 
 };
 // ============================================================
