@@ -25,7 +25,7 @@ var CONTENT = {
   // ============================================================
   hero_title:    "Energy, engineered.",
   hero_eyebrow:  "", 
-  hero_subtitle: "",
+
  
 
 
@@ -313,13 +313,6 @@ var CONTENT = {
   cta_btn:   "Book a Discovery Call",
 */
 
-// ============================================================
-  //  DISCOVERY CALL SECTION
-  // ============================================================
-  discovery_title: "If you aren't sure which path is right for you, let's connect.",
-  discovery_btn:   "Book a Discovery Call",
-  discovery_call_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/QNWKJNXHBCAKFIYXZVJF6GAN",
-  
   // ============================================================
   //  FOOTER
   //  footer_copy  = the copyright line
