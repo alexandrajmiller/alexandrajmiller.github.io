@@ -17,7 +17,7 @@ var CONTENT = {
   // ============================================================
   hero_title:    "Energy, engineered.",
   hero_eyebrow:  "", 
-  her_subtitle: "",
+  hero_subtitle: "",
 
  
 
