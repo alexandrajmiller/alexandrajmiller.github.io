@@ -466,6 +466,35 @@ var observer = new IntersectionObserver(function(entries) {
 }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
 document.querySelectorAll('.fade-in').forEach(function(el, i) { el.style.transitionDelay = (i % 4 * 0.1) + 's'; observer.observe(el); });
 
+
+function buildCards(sessions, containerId) {
+  var container = document.getElementById(containerId);
+  if (!container || !sessions) return;
+  sessions.forEach(function(s) {
+    var card = document.createElement('div');
+    card.className = 'booking-card' + (s.featured ? ' featured-card' : '');
+    var html = '';
+    if (s.badge) html += '<span class="booking-card-badge">' + s.badge + '</span>';
+    html += '<div class="booking-card-type">' + (s.type || '') + '</div>';
+    if (s.title) html += '<h3>' + s.title + '</h3>';
+    html += '<div class="booking-card-price-block">';
+    if (s.was)   html += '<span class="booking-card-was">$' + s.was + '</span>';
+    if (s.price) html += '<span class="booking-card-price">$' + s.price + '</span>';
+    html += '</div>';
+    if (s.note) html += '<div class="booking-card-price-note">' + s.note + '</div>';
+    if (s.plan) html += '<div class="booking-card-plan">' + s.plan + '</div>';
+    if (s.for)  html += '<div class="booking-card-for">'  + s.for  + '</div>';
+    if (s.includes && s.includes.length) {
+      html += '<ul class="booking-card-includes">';
+      s.includes.forEach(function(item) { if (item) html += '<li>' + item + '</li>'; });
+      html += '</ul>';
+    }
+    html += '<a href="' + s.stripe_link + '" target="_blank" rel="noopener" class="btn-book btn-book-primary">' + (s.btn || 'Book') + '</a>';
+    card.innerHTML = html;
+    container.appendChild(card);
+  });
+}
+  
 // Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach(function(a) {
   a.addEventListener('click', function(e) {
