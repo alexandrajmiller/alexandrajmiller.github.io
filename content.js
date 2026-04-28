@@ -1,13 +1,5 @@
 // ============================================================
-//  KINETIC ZENERGY — SITE CONTENT
-//  This is the ONLY file you need to edit.
-//  Never touch index.html.
-//
-//  HOW TO EDIT:
-//  - Change the text between the quotes " "
-//  - Leave the variable names (left side) exactly as they are
-//  - To leave something blank, use: ""
-//  - Save the file, push to GitHub, site updates in ~1 min
+//  SITE CONTENT.js
 // ============================================================
 
 var CONTENT = {
