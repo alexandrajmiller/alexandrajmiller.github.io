@@ -25,6 +25,7 @@ var CONTENT = {
   // ============================================================
   hero_title:    "Energy, engineered.",
   hero_eyebrow:  "", 
+  her_subtitle: "",
 
  
 
@@ -82,7 +83,7 @@ var CONTENT = {
   //  To add/edit a quote: change the text inside the quotes
   //  To add a new person: copy one block and paste it with a comma
   // ============================================================
-  /* voices_title: "Client Experiences", */
+  voices_title: "", 
 
   testimonials: [
     {
