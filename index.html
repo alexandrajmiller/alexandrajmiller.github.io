@@ -69,6 +69,7 @@
     .hero-subtitle { font-size:17px; font-weight:400; color:rgba(255,255,255,0.82); line-height:1.6; margin-bottom:36px; max-width:480px; }
     .hero-scroll { display:inline-flex; align-items:center; justify-content:center; width:48px; height:48px; border:1.5px solid rgba(255,255,255,0.55); border-radius:50%; color:#fff; font-size:18px; margin-top:16px; transition:border-color 0.2s,background 0.2s; }
     .hero-scroll:hover { border-color:#fff; background:rgba(255,255,255,0.1); }
+    .hero-ctas { display:flex; gap:16px; margin-top:32px; }
 
     /* ABOUT */
     .about-section { background:var(--off-white); padding:96px 0; border-top:1px solid var(--border); }
@@ -83,25 +84,25 @@
     @media(max-width:900px){ .about-grid{grid-template-columns:1fr; gap:40px;} .about-photo-wrap{max-width:320px;} }
 
 
-    /* BENTO */
+    /* BENTO — METHODS SECTION - Full width, vertically stacked */
     .bento-section { background:var(--white); padding:80px 0; border-top:1px solid var(--border); }
     .bento-header { margin-bottom:48px; }
     .bento-header h2 { font-size:clamp(28px,3vw,40px); color:var(--charcoal); }
-    .bento-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; }
-    .bento-card { display:grid; grid-template-columns:1fr 1fr; border-radius:16px; overflow:hidden; box-shadow:var(--shadow); cursor:pointer; transition:transform 0.3s ease,box-shadow 0.3s ease; }
+    .bento-grid { display:flex; flex-direction:column; gap:24px; }
+    .bento-card { display:flex; flex-direction:column; border-radius:16px; overflow:hidden; box-shadow:var(--shadow); cursor:pointer; transition:transform 0.3s ease,box-shadow 0.3s ease; width:100%; }
     .bento-card:hover { transform:translateY(-4px); box-shadow:var(--shadow-lg); }
-    .bento-card-photo { background-size:cover; background-position:center; min-height:320px; }
-    .bento-card-panel { padding:40px 32px; display:flex; flex-direction:column; justify-content:space-between; gap:20px; }
+    .bento-card-photo { background-size:cover; background-position:center; min-height:280px; width:100%; order:1; }
+    .bento-card-panel { padding:48px 56px; display:flex; flex-direction:column; justify-content:space-between; gap:20px; order:2; }
     .bento-card-panel.panel-olive { background:var(--olive); }
     .bento-card-panel.panel-amber { background:var(--amber); }
     .bento-card-panel.panel-forest { background:var(--forest); }
     .bento-card-panel.panel-terracotta { background:var(--terracotta); }
-    .bento-card h3 { font-size:clamp(17px,1.5vw,22px); font-weight:700; color:var(--white); line-height:1.2; margin:0 0 12px; }
-    .bento-card p { font-size:14px; color:rgba(255,255,255,0.82); line-height:1.6; margin:0 0 28px; flex:1; }
-    .bento-cta { display:inline-flex; align-items:center; gap:6px; padding:11px 22px; border:1.5px solid rgba(255,255,255,0.65); border-radius:50px; font-size:13px; font-weight:600; color:var(--white); background:transparent; transition:background 0.2s,border-color 0.2s; align-self:flex-start; }
+    .bento-card h3 { font-size:clamp(24px,2.5vw,36px); font-weight:700; color:var(--white); line-height:1.2; margin:0 0 14px; }
+    .bento-card p { font-size:16px; color:rgba(255,255,255,0.88); line-height:1.7; margin:0 0 28px; flex:1; max-width:100%; }
+    .bento-cta { display:inline-flex; align-items:center; gap:6px; padding:12px 28px; border:1.5px solid rgba(255,255,255,0.65); border-radius:50px; font-size:14px; font-weight:600; color:var(--white); background:transparent; transition:background 0.2s,border-color 0.2s; align-self:flex-start; }
     .bento-cta:hover { background:rgba(255,255,255,0.15); border-color:rgba(255,255,255,0.9); }
-    @media(max-width:900px){ .bento-grid{grid-template-columns:1fr;} }
-    @media(max-width:600px){ .bento-card{grid-template-columns:1fr;} .bento-card-photo{min-height:260px; width:100%; background-size:cover; background-position:center top; overflow:hidden;} }
+    @media(max-width:900px){ .bento-grid{flex-direction:column; gap:24px;} .bento-card-panel{padding:36px 32px;} }
+    @media(max-width:600px){ .bento-card{flex-direction:column;} .bento-card-photo{min-height:240px; width:100%; background-size:cover; background-position:center top; overflow:hidden;} .bento-card-panel{padding:28px 20px;} }
 
     /* VIDEO */
     .video-section { background:var(--off-white); padding:80px 0; border-top:1px solid var(--border); }
@@ -204,7 +205,7 @@
       <ul class="nav-right">
         <li><a href="#voices">Client Experiences</a></li>
         <li><a href="#book" class="nav-book">FAQ</a></li>
-        
+
 
       </ul>
     </div>
@@ -218,12 +219,6 @@
       <p class="hero-eyebrow" id="hero-eyebrow"></p>
       <h1 class="hero-title" id="hero-title"></h1>
       <p class="hero-subtitle" id="hero-subtitle"></p>
-      <!-- Hero buttons commented out for now
-      <div class="hero-ctas">
-        <a href="#sessions" class="btn btn-sage" id="hero-btn1"></a>
-        <a class="btn btn-outline" id="hero-btn2" target="_blank" rel="noopener"></a>
-      </div>
-      -->
       <a href="#about" class="hero-scroll" aria-label="Scroll down">↓</a>
     </div>
   </div>
@@ -255,7 +250,7 @@
     </div>
     <div class="bento-grid">
 
-      <!-- Card 1: Energy Sessions — photo left, olive right -->
+      <!-- Card 1: Energy Sessions -->
       <div class="bento-card fade-in">
         <div class="bento-card-photo" style="background-image:url('Alex_Miller_Qi_Gong_600x700_compressed.jpg'); background-position:center top;"></div>
         <div class="bento-card-panel panel-olive">
@@ -264,7 +259,7 @@
         </div>
       </div>
 
-      <!-- Card 2: 1:1 Coaching — amber left, photo right -->
+      <!-- Card 2: 1:1 Coaching -->
       <div class="bento-card fade-in">
         <div class="bento-card-photo" style="background-image:url('Alex_Miller_Online_Coaching_600x700.jpg'); background-position:center;"></div>
 
@@ -284,7 +279,7 @@
       </div>
       -->
 
-      <!-- Card 4: Pet Healing — forest left, photo right -->
+      <!-- Card 4: Pet Healing -->
       <div class="bento-card fade-in">
         <div class="bento-card-photo" style="background-image:url('Sushi_Sana_600x700_compressed.jpg'); background-position:left center;"></div>
 
@@ -295,6 +290,13 @@
       </div>
 
     </div>
+  </div>
+</section>
+
+<!-- DISCOVERY CALL CTA -->
+<section style="background:var(--off-white); padding:60px 0; border-top:1px solid var(--border); text-align:center;">
+  <div class="container">
+    <a href="https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/QNWKJNXHBCAKFIYXZVJF6GAN" target="_blank" rel="noopener" class="btn btn-sage">Book a Discovery Call</a>
   </div>
 </section>
 
