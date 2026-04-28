@@ -185,55 +185,6 @@
     #book {
       display: none !important;
     }
-
-/* DISCOVERY SECTION - CLEAN & MINIMAL */
-    .discovery-section { 
-      padding: 100px 0; 
-      background: var(--white); 
-    }
-    .discovery-box { 
-      border-top: 1px solid var(--border);
-      padding-top: 60px;
-      display: flex; 
-      align-items: flex-start; 
-      justify-content: space-between; 
-      gap: 60px;
-    }
-    .discovery-content { max-width: 550px; }
-    .discovery-content h2 { 
-      font-size: 24px; 
-      font-weight: 600;
-      color: var(--black); 
-      margin-bottom: 16px; 
-      letter-spacing: -0.01em;
-    }
-    .discovery-content p { 
-      font-size: 15px; 
-      color: var(--muted); 
-      line-height: 1.8; 
-    }
-    #discovery-link { 
-      display: inline-block;
-      padding: 14px 32px;
-      border: 1px solid var(--black);
-      border-radius: 0;
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--black);
-      background: transparent;
-      transition: all 0.3s ease;
-      white-space: nowrap;
-    }
-    #discovery-link:hover {
-      background: var(--black);
-      color: var(--white);
-    }
-    @media(max-width: 850px) {
-      .discovery-box { flex-direction: column; gap: 30px; padding-top: 40px; }
-      #discovery-link { width: 100%; text-align: center; }
-    }
     
   </style>
 </head>
@@ -412,21 +363,7 @@
     <div class="faq-prose fade-in" id="faq-prose"></div>
   </div>
 </section>
-  
-<!-- Discovery Call  -->
 
-  <section class="discovery-section">
-  <div class="container">
-    <div class="discovery-box fade-in">
-      <div class="discovery-content">
-        <h2 id="discovery-title"></h2>
-        <p id="discovery-desc"></p>
-      </div>
-      <a id="discovery-link" href="" target="_blank">Book Discovery Call</a>
-    </div>
-  </div>
-</section>
-  
 <!-- FOOTER -->
 <footer>
   <div class="container">
@@ -497,27 +434,7 @@ faqProse.innerHTML = html;
 // Booking
 set('booking-title',    CONTENT.booking_title);
 set('booking-subtitle', CONTENT.booking_subtitle);
-set('disc-text', CONTENT.discovery_call_text);
-set('disc-sub',  CONTENT.discovery_call_sub);
-set('disc-btn',  CONTENT.discovery_call_btn);
-setHref('disc-btn', CONTENT.links.discovery_call);
 
-// Discovery 
-set('discovery-title', CONTENT.discovery_call_text);
-set('discovery-desc', CONTENT.discovery_call_sub);
-set('discovery-link', CONTENT.discovery_call_btn);
-setHref('discovery-link', CONTENT.discovery_call_link);
-  
-function buildCards(sessions, containerId) {
-  var container = document.getElementById(containerId);
-  sessions.forEach(function(s) {
-    var priceBlock = s.was ? '<div class="booking-card-price-block"><span class="booking-card-was">' + s.was + '</span><div class="booking-card-price"><sup>$</sup>' + s.price + '</div></div>' : '<div class="booking-card-price"><sup>$</sup>' + s.price + '</div>';
-    var badge = s.featured && s.badge ? '<span class="booking-card-badge">' + s.badge + '</span>' : '';
-    var includes = s.includes.map(function(li){ return '<li>' + li + '</li>'; }).join('');
-    var plan = s.plan ? '<p class="booking-card-price-note" style="margin-top:4px;">' + s.plan + '</p>' : '';
-    container.innerHTML += '<div class="booking-card' + (s.featured ? ' featured-card' : '') + ' fade-in">' + badge + '<p class="booking-card-type">' + s.type + '</p><h3>' + s.title + '</h3>' + priceBlock + '<p class="booking-card-price-note">' + s.note + '</p>' + plan + '<p class="booking-card-for">' + s.for + '</p><ul class="booking-card-includes">' + includes + '</ul><a href="' + s.stripe_link + '" target="_blank" rel="noopener" class="btn-book ' + (s.featured ? 'btn-book-primary' : 'btn-book-secondary') + '">' + s.btn + '</div>';
-  });
-}
 buildCards(CONTENT.human_sessions,  'cards-human');
 buildCards(CONTENT.pet_sessions,    'cards-pet');
 buildCards(CONTENT.qigong_sessions, 'cards-qigong');
