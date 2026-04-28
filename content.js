@@ -312,6 +312,12 @@ var CONTENT = {
   cta_btn:   "Book a Discovery Call",
 */
 
+// ============================================================
+  //  DISCOVERY CALL SECTION
+  // ============================================================
+  discovery_title: "If you aren't sure which path is right for you, let's connect.",
+  discovery_btn:   "Book a Discovery Call",
+  
   // ============================================================
   //  FOOTER
   //  footer_copy  = the copyright line
