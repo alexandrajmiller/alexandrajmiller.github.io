@@ -44,7 +44,7 @@ var CONTENT = {
   //  card1–4 desc   = the description on each card
   //  (card3 is commented out in the HTML until Qi Gong is ready)
   // ============================================================
-  services_title: "Methods",
+  services_title: "Energy Sessions",
 
   card1_title: "Energy Sessions",
   card1_desc:  "These sessions support your body and mind which are governed by your energy system. They work to restore balance, clarity, and alignment.",
