@@ -31,9 +31,9 @@ var CONTENT = {
   // ============================================================
   about_label: "",
   about_name:  "About Me",
-  about_p1:    "My mission is to help people feel fully alive in every aspect of their life. As an engineer, I wanted to achieve this through building assistive devices like prosthetic limbs. However, throughout my time in academia I saw my colleagues give so much — and burn out. I realized the biggest impact I could have on society was to help the engineer, instead of doing the engineering.",
-  about_p2:    "We were taught every productivity system, every technical tool, every optimization framework. But the most advanced technology available to us — our own body, our mind, the power of our emotions — was not part of the curriculum.",
-  about_p3:    "So now I help people work at the level Einstein and Tesla understood to be the most fundamental — energy — and build a life that matches their full potential.",
+  about_p1:    "My mission is to help people feel their best in every aspect of their life. As an engineer, I wanted to achieve this through building assistive devices like prosthetic limbs. However, throughout my time in academia I saw my colleagues give so much — and burn out. I realized the biggest impact I could have on society was to help the engineers and researchers.",
+  about_p2:    "We were taught every productivity system, every technical tool, every optimization framework. But the most advanced technology available to us — our own body, our mind, the power of our attention and emotions — were not part of the curriculum.",
+  about_p3:    "So now I help people work at the level Einstein and Tesla understood to be the most fundamental — energy — and build a life where they activate their full potential and feel their best while doing it.",
   about_tags:  [],
 
 
@@ -51,7 +51,7 @@ var CONTENT = {
   //card1_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/537R2XELAH64LFL734HDUM5W",
 
   card2_title: "1:1 Coaching",
-  card2_desc:  "Build what comes next. For people who want clearer thinking, better decisions, and less resistance in daily life.",
+  card2_desc:  "Envision and execute your next aligned step with ease and grace.",
   //card2_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/UHNK637DZW5KZ2V3ZVR2ECUA",
 
   card3_title: "Qi Gong Instruction",
