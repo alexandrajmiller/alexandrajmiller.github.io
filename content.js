@@ -48,7 +48,7 @@ var CONTENT = {
 
   card1_title: "Energy Sessions",
   card1_desc:  "These sessions support your body and mind which are governed by your energy system. They work to restore balance, clarity, and alignment.",
-  //card1_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/537R2XELAH64LFL734HDUM5W",
+  card1_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/537R2XELAH64LFL734HDUM5W",
 
   card2_title: "1:1 Coaching",
   card2_desc:  "Envision and execute your next aligned step with ease and grace.",
@@ -60,7 +60,7 @@ var CONTENT = {
 
   card4_title: "Energy Sessions for Your Pet",
   card4_desc:  "Just like people, pets absorb and reflect the energy of their environment. Energy sessions help to realign, stabilize, and harmonize your pet's energy system to improve mood and overall health and well-being.",
-  //card4_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/2EFSFUG3I5CHDSXM5IOAKYVZ",
+  card4_link: "https://book.squareup.com/appointments/d92w4lqqjd4a1d/location/L8BC1DJYXY83M/services/2EFSFUG3I5CHDSXM5IOAKYVZ",
 
   // ============================================================
   //  VIDEO SECTION — Dawn Hoang session video
