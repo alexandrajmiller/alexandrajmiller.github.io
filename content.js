@@ -33,7 +33,7 @@ var CONTENT = {
   about_name:  "About Me",
   about_p1:    "My mission is to help people feel their best in every aspect of their life. As an engineer, I wanted to achieve this through building assistive devices like prosthetic limbs. However, throughout my time in academia I saw my colleagues give so much — and burn out. I realized the biggest impact I could have on society was to help the engineers and researchers.",
   about_p2:    "We were taught every productivity system, every technical tool, every optimization framework. But the most advanced technology available to us — our own body, our mind, the power of our attention and emotions — were not part of the curriculum.",
-  about_p3:    "So now I help people work at the level Einstein and Tesla understood to be the most fundamental — energy — and build a life where they activate their full potential and feel their best while doing it.",
+  about_p3:    "Using the same techniques I now share with clients, I transformed my own life and moved to Kauaʻi, Hawaiʻi. Today, I help others work at the level Einstein and Tesla understood to be the most fundamental — energy — and build a life where they activate their full potential and feel their best while doing it.",
   about_tags:  [],
 
 
