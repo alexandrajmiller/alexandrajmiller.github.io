@@ -285,13 +285,9 @@ var CONTENT = {
   faq_title: "Frequently Asked Questions",
 
   faqs: [
-    {
-      q: "What is the difference between coaching and energy sessions?",
-      a: "Personal Energy Coaching is a structured 10-session programme focused on understanding your energy patterns and building practical tools for sustained performance. Energy sessions directly clear energetic blocks - physical, mental, and/or emotional."
-    },
-    {
+       {
       q: "Do sessions need to be done in person?",
-      a: "No — all sessions are remote."
+      a: "All sessions are done remotely."
     },
     {
       q: "How quickly will I notice results?",
