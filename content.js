@@ -108,7 +108,6 @@ var CONTENT = {
       name:    "Katherine",
       role:    "Energy Session for her dog, Chili",
       colors: ["amber"],
-
       initial: ""
     },
 
