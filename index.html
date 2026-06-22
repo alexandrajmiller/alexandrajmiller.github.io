@@ -447,8 +447,37 @@ set('video-title', CONTENT.video_title);
 set('voices-label', CONTENT.voices_label);
 set('voices-title', CONTENT.voices_title);
 var vGrid = document.getElementById('voices-grid');
+
+
+  // Testimonial dot colors
+var testimonialColors = {
+  sage: "var(--sage)",
+  olive: "var(--olive)",
+  amber: "var(--amber)",
+  forest: "var(--forest)",
+  terracotta: "var(--terracotta)"
+};
+
 CONTENT.testimonials.forEach(function(t) {
-  vGrid.innerHTML += '<div class="t-card fade-in"><p class="t-quote">"' + t.quote + '"</p><div class="t-footer"><div class="t-dot">' + t.initial + '</div><div><div class="t-name">' + t.name + '</div><div class="t-role">' + t.role + '</div></div></div></div>';
+vGrid.innerHTML +=
+  '<div class="t-card fade-in">' +
+    '<p class="t-quote">"' + t.quote + '"</p>' +
+    '<div class="t-footer">' +
+      '<div class="t-dots">' +
+        (t.colors || ["sage"]).map(function(color) {
+          var dotColor = testimonialColors[color] || color;
+          return '<div class="t-dot" style="background:' + dotColor + ';">' +
+            t.initial +
+          '</div>';
+        }).join('') +
+      '</div>' +
+      '<div>' +
+        '<div class="t-name">' + t.name + '</div>' +
+        '<div class="t-role">' + t.role + '</div>' +
+      '</div>' +
+    '</div>' +
+  '</div>';
+
 });
 
 // FAQ — plain prose
