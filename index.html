@@ -124,7 +124,37 @@
     .voices-header h2 { font-size:clamp(26px,3vw,38px); color:var(--black); margin-bottom:10px; }
     .t-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
     .t-card { background:var(--off-white); border-radius:14px; padding:28px; border:1px solid var(--border); display:flex; flex-direction:column; gap:16px; }
-    .t-quote { font-size:15px; color:var(--text); line-height:1.7; font-style:italic; flex:1; }
+    .t-quote {
+      font-size:15px;
+      color:var(--text);
+      line-height:1.7;
+      font-style:italic;
+      flex:1;
+    }
+    
+    .t-quote.collapsed {
+      display: -webkit-box;
+      -webkit-line-clamp: 6; 
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    
+    .t-read-more {
+      background: none;
+      border: none;
+      padding: 0;
+      margin-top: 6px;
+      color: var(--sage);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    
+    .t-read-more:hover {
+      text-decoration: underline;
+    }
+    
+    
     .t-footer { display:flex; align-items:center; gap:12px; padding-top:14px; border-top:1px solid var(--border); }
     .t-dot { width:34px; height:34px; border-radius:50%; background:var(--sage); display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:700; color:var(--white); flex-shrink:0; }
     .t-name { font-size:13px; font-weight:600; color:var(--black); }
@@ -458,25 +488,42 @@ var testimonialColors = {
   terracotta: "var(--terracotta)"
 };
 
-CONTENT.testimonials.forEach(function(t) {
-vGrid.innerHTML +=
-  '<div class="t-card fade-in">' +
-    '<p class="t-quote">"' + t.quote + '"</p>' +
-    '<div class="t-footer">' +
-      '<div class="t-dots">' +
-        (t.colors || ["sage"]).map(function(color) {
-          var dotColor = testimonialColors[color] || color;
-          return '<div class="t-dot" style="background:' + dotColor + ';">' +
-            t.initial +
-          '</div>';
-        }).join('') +
+CONTENT.testimonials.forEach(function(t, index) {
+  var quoteId = "testimonial-quote-" + index;
+
+  vGrid.innerHTML +=
+    '<div class="t-card fade-in">' +
+      '<div class="t-quote-wrap">' +
+        '<p class="t-quote collapsed" id="' + quoteId + '">"' + t.quote + '"</p>' +
+        '<button class="t-read-more" onclick="toggleTestimonial(\'' + quoteId + '\', this)">Read more</button>' +
       '</div>' +
-      '<div>' +
-        '<div class="t-name">' + t.name + '</div>' +
-        '<div class="t-role">' + t.role + '</div>' +
+      '<div class="t-footer">' +
+        '<div class="t-dots">' +
+          (t.colors || ["sage"]).map(function(color) {
+            var dotColor = testimonialColors[color] || color;
+            return '<div class="t-dot" style="background:' + dotColor + ';">' +
+              t.initial +
+            '</div>';
+          }).join('') +
+        '</div>' +
+        '<div>' +
+          '<div class="t-name">' + t.name + '</div>' +
+          '<div class="t-role">' + t.role + '</div>' +
+        '</div>' +
       '</div>' +
-    '</div>' +
-  '</div>';
+    '</div>';
+
+  function toggleTestimonial(quoteId, button) {
+  var quote = document.getElementById(quoteId);
+
+  quote.classList.toggle("collapsed");
+
+  if (quote.classList.contains("collapsed")) {
+    button.textContent = "Read more";
+  } else {
+    button.textContent = "Show less";
+  }
+}
 
 });
 
