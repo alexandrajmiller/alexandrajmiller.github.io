@@ -107,7 +107,7 @@ var CONTENT = {
       quote:   "Working with Alex over a few months transformed our rescue dog, Chili, from reactive and fear-based to more relaxed and loving. Alex worked to ground Chili in our home and city and cleared her energy to make her feel safe in our home and with us. Before working with Alex, Chili would growl, bark and lunge if we moved near her or touched her. Now, we can cuddle with her without fear of an aggressive reaction. Alex also helped us discover that Chili was scared of her current dog walker and encouraged us to find a new one. We now have a new dog walker that Chili is excited to see and walk with. Ultimately, Alex told us that Chili was trying to find out where she fit in our family and needed to know that she was important and mattered. We started verbalizing that she is an important part of our family and carved out dedicated time to show Chili that we love her in a way that she needs. We are grateful for Alex's work and energy healing with Chili.",
       name:    "Katherine",
       role:    "Energy Session for her dog, Chili",
-      colors: ["amber"],
+      colors: ["#C49040"],
       initial: ""
     },
 
