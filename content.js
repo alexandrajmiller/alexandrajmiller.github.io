@@ -124,6 +124,7 @@ var CONTENT = {
                 I am deeply grateful for the changes I've witnessed. Seeing them grow in confidence and feel increasingly safe in their home has been a wonderful journey, and I truly believe Alex's healing sessions have played an important role in helping them get there.`,
       name:    "Nathalie",
       role:    "Energy Session for her cats, Izu & Tabi",
+      colors: ["amber"],
       initial: ""
     }
 
