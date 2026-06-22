@@ -108,7 +108,26 @@ var CONTENT = {
       name:    "Katherine",
       role:    "Energy Session for her dog",
       initial: ""
+    },
+
+    {
+      quote:   `When I started working with Alex, my two rescue kittens, Tabi and Izu, were still carrying a great deal of fear from their difficult start in life. They had learned that the world wasn't always a safe place, so hiding and running away had become their normal response.
+      
+                Tabi was already willing to come and sit on my lap, but even the slightest movement or sound would make him jump. Today, he is much more relaxed and confident. He happily comes for cuddles and no longer reacts with the same level of fear.
+                
+                The biggest change has been with Izu. At first, she would only watch from a distance. Now she regularly joins Tabi on my lap, looks deeply into my eyes, and shows a level of trust I never thought possible. Watching her choose connection instead of fear has been incredibly moving.
+                
+                Together, they now play, sleep, and enjoy life as carefree kittens should. We can walk into a room without them immediately running away, and if I move slowly, I can even pass them in a doorway without them panicking. Tabi is now comfortable meeting me on the stairs, while Izu is still taking her time—but she continues to make steady progress.
+                
+                They are much happier, more relaxed, and far more trusting than before. They no longer spend their days hiding, although they still retreat when unfamiliar visitors come into the house, which is completely understandable considering their past.
+                
+                I am deeply grateful for the changes I've witnessed. Seeing them grow in confidence and feel increasingly safe in their home has been a wonderful journey, and I truly believe Alex's healing sessions have played an important role in helping them get there.`,
+      name:    "Nathalie",
+      role:    "Energy Session for her cats, Izu & Tabi",
+      initial: ""
     }
+
+    
     
   ],
 
